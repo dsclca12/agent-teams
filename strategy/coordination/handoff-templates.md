@@ -1,357 +1,357 @@
-# 📋 NEXUS Handoff Templates
+# 📋 NEXUS 交接模板
 
-> Standardized templates for every type of agent-to-agent handoff in the NEXUS pipeline. Consistent handoffs prevent context loss — the #1 cause of multi-agent coordination failure.
+> NEXUS 流水线中每种类型 Agent 间交接的标准化模板。一致的交接可防止上下文丢失 —— 这是多 Agent 协调失败的第一大原因。
 
 ---
 
-## 1. Standard Handoff Template
+## 1. 标准交接模板
 
-Use for any agent-to-agent work transfer.
+用于任何 Agent 间工作转移。
 
 ```markdown
-# NEXUS Handoff Document
+# NEXUS 交接文档
 
-## Metadata
-| Field | Value |
-|-------|-------|
-| **From** | [Agent Name] ([Division]) |
-| **To** | [Agent Name] ([Division]) |
-| **Phase** | Phase [N] — [Phase Name] |
-| **Task Reference** | [Task ID from Sprint Prioritizer backlog] |
-| **Priority** | [Critical / High / Medium / Low] |
-| **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
+## 元数据
+| 字段 | 值 |
+|------|-----|
+| **来源** | [Agent 名称]（[部门]） |
+| **目标** | [Agent 名称]（[部门]） |
+| **阶段** | Phase [N] —— [阶段名称] |
+| **任务引用** | [Sprint Prioritizer backlog 中的任务 ID] |
+| **优先级** | [关键 / 高 / 中 / 低] |
+| **时间戳** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Context
-**Project**: [Project name]
-**Current State**: [What has been completed so far — be specific]
-**Relevant Files**:
-- [file/path/1] — [what it contains]
-- [file/path/2] — [what it contains]
-**Dependencies**: [What this work depends on being complete]
-**Constraints**: [Technical, timeline, or resource constraints]
+## 上下文
+**项目**：[项目名称]
+**当前状态**：[到目前为止已完成的工作 —— 要具体]
+**相关文件**：
+- [文件/路径/1] —— [包含什么内容]
+- [文件/路径/2] —— [包含什么内容]
+**依赖**：[此工作依赖什么完成]
+**约束**：[技术、时间线或资源约束]
 
-## Deliverable Request
-**What is needed**: [Specific, measurable deliverable description]
-**Acceptance criteria**:
-- [ ] [Criterion 1 — measurable]
-- [ ] [Criterion 2 — measurable]
-- [ ] [Criterion 3 — measurable]
-**Reference materials**: [Links to specs, designs, previous work]
+## 交付物请求
+**需要什么**：[具体、可衡量的交付物描述]
+**验收标准**：
+- [ ] [标准 1 —— 可衡量]
+- [ ] [标准 2 —— 可衡量]
+- [ ] [标准 3 —— 可衡量]
+**参考材料**：[链接到规格、设计、之前的工作]
 
-## Quality Expectations
-**Must pass**: [Specific quality criteria for this deliverable]
-**Evidence required**: [What proof of completion looks like]
-**Handoff to next**: [Who receives the output and what format they need]
+## 质量期望
+**必须通过**：[此交付物的具体质量标准]
+**所需证据**：[完成证明的样子]
+**交接给下一步**：[谁接收输出以及他们需要什么格式]
 ```
 
 ---
 
-## 2. QA Feedback Loop — PASS
+## 2. QA 反馈循环 —— PASS
 
-Use when Evidence Collector or other QA agent approves a task.
+当 Evidence Collector 或其他 QA Agent 批准任务时使用。
 
 ```markdown
-# NEXUS QA Verdict: PASS ✅
+# NEXUS QA 裁决：PASS ✅
 
-## Task
-| Field | Value |
-|-------|-------|
-| **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempt** | [N] of 3 |
-| **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
+## 任务
+| 字段 | 值 |
+|------|-----|
+| **任务 ID** | [ID] |
+| **任务描述** | [描述] |
+| **开发者 Agent** | [Agent 名称] |
+| **QA Agent** | [Agent 名称] |
+| **尝试** | [N] / 3 |
+| **时间戳** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Verdict: PASS
+## 裁决：PASS
 
-## Evidence
-**Screenshots**:
-- Desktop (1920x1080): [filename/path]
-- Tablet (768x1024): [filename/path]
-- Mobile (375x667): [filename/path]
+## 证据
+**截图**：
+- 桌面（1920x1080）：[文件名/路径]
+- 平板（768x1024）：[文件名/路径]
+- 移动端（375x667）：[文件名/路径]
 
-**Functional Verification**:
-- [x] [Acceptance criterion 1] — verified
-- [x] [Acceptance criterion 2] — verified
-- [x] [Acceptance criterion 3] — verified
+**功能验证**：
+- [x] [验收标准 1] —— 已验证
+- [x] [验收标准 2] —— 已验证
+- [x] [验收标准 3] —— 已验证
 
-**Brand Consistency**: Verified — colors, typography, spacing match design system
-**Accessibility**: Verified — keyboard navigation, contrast ratios, semantic HTML
-**Performance**: [Load time measured] — within acceptable range
+**品牌一致性**：已验证 —— 颜色、排版、间距匹配设计系统
+**可访问性**：已验证 —— 键盘导航、对比度、语义化 HTML
+**性能**：[测量的加载时间] —— 在可接受范围内
 
-## Notes
-[Any observations, minor suggestions for future improvement, or positive callouts]
+## 备注
+[任何观察、未来改进的小建议或正面反馈]
 
-## Next Action
-→ Agents Orchestrator: Mark task complete, advance to next task in backlog
+## 下一步行动
+→ Agents Orchestrator：标记任务完成，推进到 Backlog 中的下一个任务
 ```
 
 ---
 
-## 3. QA Feedback Loop — FAIL
+## 3. QA 反馈循环 —— FAIL
 
-Use when Evidence Collector or other QA agent rejects a task.
+当 Evidence Collector 或其他 QA Agent 拒绝任务时使用。
 
 ```markdown
-# NEXUS QA Verdict: FAIL ❌
+# NEXUS QA 裁决：FAIL ❌
 
-## Task
-| Field | Value |
-|-------|-------|
-| **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempt** | [N] of 3 |
-| **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
+## 任务
+| 字段 | 值 |
+|------|-----|
+| **任务 ID** | [ID] |
+| **任务描述** | [描述] |
+| **开发者 Agent** | [Agent 名称] |
+| **QA Agent** | [Agent 名称] |
+| **尝试** | [N] / 3 |
+| **时间戳** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Verdict: FAIL
+## 裁决：FAIL
 
-## Issues Found
+## 发现的问题
 
-### Issue 1: [Category] — [Severity: Critical/High/Medium/Low]
-**Description**: [Exact description of the problem]
-**Expected**: [What should happen according to acceptance criteria]
-**Actual**: [What actually happens]
-**Evidence**: [Screenshot filename or test output]
-**Fix instruction**: [Specific, actionable instruction to resolve]
-**File(s) to modify**: [Exact file paths]
+### 问题 1：[类别] —— [严重性：关键/高/中/低]
+**描述**：[问题的精确描述]
+**预期**：[根据验收标准应该发生什么]
+**实际**：[实际发生了什么]
+**证据**：[截图文件名或测试输出]
+**修复指令**：[具体、可操作的解决指令]
+**要修改的文件**：[精确的文件路径]
 
-### Issue 2: [Category] — [Severity]
-**Description**: [...]
-**Expected**: [...]
-**Actual**: [...]
-**Evidence**: [...]
-**Fix instruction**: [...]
-**File(s) to modify**: [...]
+### 问题 2：[类别] —— [严重性]
+**描述**：[...]
+**预期**：[...]
+**实际**：[...]
+**证据**：[...]
+**修复指令**：[...]
+**要修改的文件**：[...]
 
-[Continue for all issues found]
+[继续列出所有发现的问题]
 
-## Acceptance Criteria Status
-- [x] [Criterion 1] — passed
-- [ ] [Criterion 2] — FAILED (see Issue 1)
-- [ ] [Criterion 3] — FAILED (see Issue 2)
+## 验收标准状态
+- [x] [标准 1] —— 通过
+- [ ] [标准 2] —— 失败（见问题 1）
+- [ ] [标准 3] —— 失败（见问题 2）
 
-## Retry Instructions
-**For Developer Agent**:
-1. Fix ONLY the issues listed above
-2. Do NOT introduce new features or changes
-3. Re-submit for QA when all issues are addressed
-4. This is attempt [N] of 3 maximum
+## 重试指令
+**给开发者 Agent**：
+1. 只修复上面列出的问题
+2. 不要引入新功能或更改
+3. 所有问题解决后重新提交 QA
+4. 这是尝试 [N] / 最多 3 次
 
-**If attempt 3 fails**: Task will be escalated to Agents Orchestrator
+**如果第 3 次尝试失败**：任务将升级到 Agents Orchestrator
 ```
 
 ---
 
-## 4. Escalation Report
+## 4. 升级报告
 
-Use when a task exceeds 3 retry attempts.
+当任务超过 3 次重试尝试时使用。
 
 ```markdown
-# NEXUS Escalation Report 🚨
+# NEXUS 升级报告 🚨
 
-## Task
-| Field | Value |
-|-------|-------|
-| **Task ID** | [ID] |
-| **Task Description** | [Description] |
-| **Developer Agent** | [Agent Name] |
-| **QA Agent** | [Agent Name] |
-| **Attempts Exhausted** | 3/3 |
-| **Escalation To** | [Agents Orchestrator / Studio Producer] |
-| **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
+## 任务
+| 字段 | 值 |
+|------|-----|
+| **任务 ID** | [ID] |
+| **任务描述** | [描述] |
+| **开发者 Agent** | [Agent 名称] |
+| **QA Agent** | [Agent 名称] |
+| **已耗尽尝试** | 3/3 |
+| **升级给** | [Agents Orchestrator / Studio Producer] |
+| **时间戳** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Failure History
+## 失败历史
 
-### Attempt 1
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### 尝试 1
+- **发现的问题**：[摘要]
+- **应用的修复**：[开发者改变了什么]
+- **结果**：FAIL —— [为什么仍然失败]
 
-### Attempt 2
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### 尝试 2
+- **发现的问题**：[摘要]
+- **应用的修复**：[开发者改变了什么]
+- **结果**：FAIL —— [为什么仍然失败]
 
-### Attempt 3
-- **Issues found**: [Summary]
-- **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+### 尝试 3
+- **发现的问题**：[摘要]
+- **应用的修复**：[开发者改变了什么]
+- **结果**：FAIL —— [为什么仍然失败]
 
-## Root Cause Analysis
-**Why the task keeps failing**: [Analysis of the underlying problem]
-**Systemic issue**: [Is this a one-off or pattern?]
-**Complexity assessment**: [Was the task properly scoped?]
+## 根本原因分析
+**为什么任务一直失败**：[潜在问题的分析]
+**系统性问题**：[这是偶发还是模式？]
+**复杂性评估**：[任务是否被正确界定？]
 
-## Recommended Resolution
-- [ ] **Reassign** to different developer agent ([recommended agent])
-- [ ] **Decompose** into smaller sub-tasks ([proposed breakdown])
-- [ ] **Revise approach** — architecture/design change needed
-- [ ] **Accept** current state with documented limitations
-- [ ] **Defer** to future sprint
+## 推荐解决方案
+- [ ] **重新分配**给不同的开发者 Agent（[推荐的 Agent]）
+- [ ] **分解**为更小的子任务（[建议的分解]）
+- [ ] **修订方法** —— 需要架构/设计变更
+- [ ] **接受**当前状态并记录已知限制
+- [ ] **推迟**到未来冲刺
 
-## Impact Assessment
-**Blocking**: [What other tasks are blocked by this]
-**Timeline Impact**: [How this affects the overall schedule]
-**Quality Impact**: [What quality compromises exist if we accept current state]
+## 影响评估
+**阻塞**：[什么其他任务被此阻塞]
+**时间线影响**：[这如何影响整体进度]
+**质量影响**：[如果我们接受当前状态存在什么质量妥协]
 
-## Decision Required
-**Decision maker**: [Agents Orchestrator / Studio Producer]
-**Deadline**: [When decision is needed to avoid further delays]
+## 需要决策
+**决策者**：[Agents Orchestrator / Studio Producer]
+**截止时间**：[何时需要决策以避免进一步延误]
 ```
 
 ---
 
-## 5. Phase Gate Handoff
+## 5. 阶段门控交接
 
-Use when transitioning between NEXUS phases.
+在 NEXUS 阶段之间转换时使用。
 
 ```markdown
-# NEXUS Phase Gate Handoff
+# NEXUS 阶段门控交接
 
-## Transition
-| Field | Value |
-|-------|-------|
-| **From Phase** | Phase [N] — [Name] |
-| **To Phase** | Phase [N+1] — [Name] |
-| **Gate Keeper(s)** | [Agent Name(s)] |
-| **Gate Result** | [PASSED / FAILED] |
-| **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
+## 转换
+| 字段 | 值 |
+|------|-----|
+| **来源阶段** | Phase [N] —— [名称] |
+| **目标阶段** | Phase [N+1] —— [名称] |
+| **门控负责人** | [Agent 名称] |
+| **门控结果** | [PASSED / FAILED] |
+| **时间戳** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Gate Criteria Results
-| # | Criterion | Threshold | Result | Evidence |
-|---|-----------|-----------|--------|----------|
-| 1 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 2 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 3 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
+## 门控标准结果
+| # | 标准 | 阈值 | 结果 | 证据 |
+|---|------|------|------|------|
+| 1 | [标准] | [阈值] | ✅ PASS / ❌ FAIL | [证据引用] |
+| 2 | [标准] | [阈值] | ✅ PASS / ❌ FAIL | [证据引用] |
+| 3 | [标准] | [阈值] | ✅ PASS / ❌ FAIL | [证据引用] |
 
-## Documents Carried Forward
-1. [Document name] — [Purpose for next phase]
-2. [Document name] — [Purpose for next phase]
-3. [Document name] — [Purpose for next phase]
+## 转交的文档
+1. [文档名称] —— [下一阶段的用途]
+2. [文档名称] —— [下一阶段的用途]
+3. [文档名称] —— [下一阶段的用途]
 
-## Key Constraints for Next Phase
-- [Constraint 1 from this phase's findings]
-- [Constraint 2 from this phase's findings]
+## 下一阶段的关键约束
+- [来自本阶段发现的约束 1]
+- [来自本阶段发现的约束 2]
 
-## Agent Activation for Next Phase
-| Agent | Role | Priority |
-|-------|------|----------|
-| [Agent 1] | [Role in next phase] | [Immediate / Day 2 / As needed] |
-| [Agent 2] | [Role in next phase] | [Immediate / Day 2 / As needed] |
+## 下一阶段的 Agent 激活
+| Agent | 角色 | 优先级 |
+|-------|------|--------|
+| [Agent 1] | [下一阶段的职责] | [立即 / 第 2 天 / 按需] |
+| [Agent 2] | [下一阶段的职责] | [立即 / 第 2 天 / 按需] |
 
-## Risks Carried Forward
-| Risk | Severity | Mitigation | Owner |
-|------|----------|------------|-------|
-| [Risk] | [P0-P3] | [Mitigation plan] | [Agent] |
+## 转交的风险
+| 风险 | 严重性 | 缓解措施 | 负责人 |
+|------|--------|---------|-------|
+| [风险] | [P0-P3] | [缓解计划] | [Agent] |
 ```
 
 ---
 
-## 6. Sprint Handoff
+## 6. 冲刺交接
 
-Use at sprint boundaries.
+在冲刺边界使用。
 
 ```markdown
-# NEXUS Sprint Handoff
+# NEXUS 冲刺交接
 
-## Sprint Summary
-| Field | Value |
-|-------|-------|
-| **Sprint** | [Number] |
-| **Duration** | [Start date] → [End date] |
-| **Sprint Goal** | [Goal statement] |
-| **Velocity** | [Planned] / [Actual] story points |
+## 冲刺摘要
+| 字段 | 值 |
+|------|-----|
+| **冲刺** | [编号] |
+| **持续时间** | [开始日期] → [结束日期] |
+| **冲刺目标** | [目标声明] |
+| **速度** | [计划] / [实际] 故事点 |
 
-## Completion Status
-| Task ID | Description | Status | QA Attempts | Notes |
-|---------|-------------|--------|-------------|-------|
-| [ID] | [Description] | ✅ Complete | [N] | [Notes] |
-| [ID] | [Description] | ✅ Complete | [N] | [Notes] |
-| [ID] | [Description] | ⚠️ Carried Over | [N] | [Reason] |
+## 完成状态
+| 任务 ID | 描述 | 状态 | QA 尝试 | 备注 |
+|---------|------|------|---------|------|
+| [ID] | [描述] | ✅ 完成 | [N] | [备注] |
+| [ID] | [描述] | ✅ 完成 | [N] | [备注] |
+| [ID] | [描述] | ⚠️ 结转 | [N] | [原因] |
 
-## Quality Metrics
-- **First-pass QA rate**: [X]%
-- **Average retries**: [N]
-- **Tasks completed**: [X/Y]
-- **Story points delivered**: [N]
+## 质量指标
+- **首次 QA 通过率**：[X]%
+- **平均重试次数**：[N]
+- **已完成任务**：[X/Y]
+- **交付的故事点**：[N]
 
-## Carried Over to Next Sprint
-| Task ID | Description | Reason | Priority |
-|---------|-------------|--------|----------|
-| [ID] | [Description] | [Why not completed] | [RICE score] |
+## 结转到下一冲刺
+| 任务 ID | 描述 | 原因 | 优先级 |
+|---------|------|------|--------|
+| [ID] | [描述] | [为什么未完成] | [RICE 分数] |
 
-## Retrospective Insights
-**What went well**: [Key successes]
-**What to improve**: [Key improvements]
-**Action items**: [Specific changes for next sprint]
+## 回顾洞察
+**做得好的**：[关键成功]
+**需要改进的**：[关键改进]
+**行动项**：[下一冲刺的具体变更]
 
-## Next Sprint Preview
-**Sprint goal**: [Proposed goal]
-**Key tasks**: [Top priority items]
-**Dependencies**: [Cross-team dependencies]
+## 下一冲刺预览
+**冲刺目标**：[建议的目标]
+**关键任务**：[最高优先级项]
+**依赖**：[跨团队依赖]
 ```
 
 ---
 
-## 7. Incident Handoff
+## 7. 事件交接
 
-Use during incident response.
+在事件响应期间使用。
 
 ```markdown
-# NEXUS Incident Handoff
+# NEXUS 事件交接
 
-## Incident
-| Field | Value |
-|-------|-------|
-| **Severity** | [P0 / P1 / P2 / P3] |
-| **Detected by** | [Agent or system] |
-| **Detection time** | [Timestamp] |
-| **Assigned to** | [Agent Name] |
-| **Status** | [Investigating / Mitigating / Resolved / Post-mortem] |
+## 事件
+| 字段 | 值 |
+|------|-----|
+| **严重性** | [P0 / P1 / P2 / P3] |
+| **发现者** | [Agent 或系统] |
+| **发现时间** | [时间戳] |
+| **分配给** | [Agent 名称] |
+| **状态** | [调查中 / 缓解中 / 已解决 / 事后分析] |
 
-## Description
-**What happened**: [Clear description of the incident]
-**Impact**: [Who/what is affected and how severely]
-**Timeline**:
-- [HH:MM] — [Event]
-- [HH:MM] — [Event]
-- [HH:MM] — [Event]
+## 描述
+**发生了什么**：[事件的清晰描述]
+**影响**：[谁/什么受到影响以及严重程度]
+**时间线**：
+- [HH:MM] —— [事件]
+- [HH:MM] —— [事件]
+- [HH:MM] —— [事件]
 
-## Current State
-**Systems affected**: [List]
-**Workaround available**: [Yes/No — describe if yes]
-**Estimated resolution**: [Time estimate]
+## 当前状态
+**受影响的系统**：[列表]
+**是否有变通方案**：[是/否 —— 如是请描述]
+**预计解决时间**：[时间估算]
 
-## Actions Taken
-1. [Action taken and result]
-2. [Action taken and result]
+## 已采取的行动
+1. [已采取的行动及结果]
+2. [已采取的行动及结果]
 
-## Handoff Context
-**For next responder**:
-- [What's been tried]
-- [What hasn't been tried yet]
-- [Suspected root cause]
-- [Relevant logs/metrics to check]
+## 交接上下文
+**给下一响应者**：
+- [已尝试过什么]
+- [还没尝试过什么]
+- [怀疑的根本原因]
+- [要检查的相关日志/指标]
 
-## Stakeholder Communication
-**Last update sent**: [Timestamp]
-**Next update due**: [Timestamp]
-**Communication channel**: [Where updates are posted]
+## 利益相关者沟通
+**上次更新发送**：[时间戳]
+**下次更新到期**：[时间戳]
+**沟通渠道**：[更新发布在哪里]
 ```
 
 ---
 
-## Usage Guide
+## 使用指南
 
-| Situation | Template to Use |
-|-----------|----------------|
-| Assigning work to another agent | Standard Handoff (#1) |
-| QA approves a task | QA PASS (#2) |
-| QA rejects a task | QA FAIL (#3) |
-| Task exceeds 3 retries | Escalation Report (#4) |
-| Moving between phases | Phase Gate Handoff (#5) |
-| End of sprint | Sprint Handoff (#6) |
-| System incident | Incident Handoff (#7) |
+| 情况 | 使用的模板 |
+|------|-----------|
+| 向其他 Agent 分配工作 | 标准交接（#1） |
+| QA 批准任务 | QA PASS（#2） |
+| QA 拒绝任务 | QA FAIL（#3） |
+| 任务超过 3 次重试 | 升级报告（#4） |
+| 在阶段之间移动 | 阶段门控交接（#5） |
+| 冲刺结束 | 冲刺交接（#6） |
+| 系统事件 | 事件交接（#7） |

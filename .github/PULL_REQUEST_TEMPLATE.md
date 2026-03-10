@@ -1,17 +1,17 @@
-## What does this PR do?
+## 这个 PR 做了什么？
 
-<!-- Brief description of the change -->
+<!-- 简要描述更改内容 -->
 
-## Agent Information (if adding/modifying an agent)
+## 代理信息（如果添加/修改代理）
 
-- **Agent Name**:
-- **Category**:
-- **Specialty**:
+- **代理名称**：
+- **类别**：
+- **专业领域**：
 
-## Checklist
+## 检查清单
 
-- [ ] Follows the agent template structure from CONTRIBUTING.md
-- [ ] Includes YAML frontmatter with `name`, `description`, `color`
-- [ ] Has concrete code/template examples (for new agents)
-- [ ] Tested in real scenarios
-- [ ] Proofread and formatted correctly
+- [ ] 遵循 CONTRIBUTING.md 中的代理模板结构
+- [ ] 包含带有 `name`、`description`、`color` 的 YAML frontmatter
+- [ ] 有具体的代码/模板示例（针对新代理）
+- [ ] 在真实场景中测试过
+- [ ] 已校对并正确格式化

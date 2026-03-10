@@ -1,27 +1,27 @@
-name: Bug Report
-description: Report an issue with an agent file (formatting, broken examples, etc.)
+name: Bug 报告
+description: 报告代理文件的问题（格式、损坏的示例等）
 labels: ["bug"]
 body:
   - type: input
     id: agent-file
     attributes:
-      label: Agent file
-      placeholder: e.g. engineering/engineering-frontend-developer.md
+      label: 代理文件
+      placeholder: 例如 engineering/engineering-frontend-developer.md
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: What's wrong?
-      placeholder: Describe the issue — broken formatting, incorrect examples, outdated info, etc.
+      label: 有什么问题？
+      placeholder: 描述问题 —— 格式损坏、示例错误、信息过时等。
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: Suggested fix
-      placeholder: If you have a fix in mind, describe it here.
+      label: 建议的修复方案
+      placeholder: 如果您有修复想法，请在此描述。
     validations:
       required: false

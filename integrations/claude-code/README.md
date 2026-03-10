@@ -1,21 +1,20 @@
-# Claude Code Integration
+# Claude Code 集成
 
-The Agency was built for Claude Code. No conversion needed — agents work
-natively with the existing `.md` + YAML frontmatter format.
+The Agency 是为 Claude Code 构建的。无需转换 — 智能体以现有的 `.md` + YAML frontmatter 格式原生工作。
 
-## Install
+## 安装
 
 ```bash
-# Copy all agents to your Claude Code agents directory
+# 将所有智能体复制到您的 Claude Code 智能体目录
 ./scripts/install.sh --tool claude-code
 
-# Or manually copy a category
+# 或手动复制某个类别
 cp engineering/*.md ~/.claude/agents/
 ```
 
-## Activate an Agent
+## 激活智能体
 
-In any Claude Code session, reference an agent by name:
+在任何 Claude Code 会话中，通过名称引用智能体：
 
 ```
 Activate Frontend Developer and help me build a React component.
@@ -25,7 +24,6 @@ Activate Frontend Developer and help me build a React component.
 Use the Reality Checker agent to verify this feature is production-ready.
 ```
 
-## Agent Directory
+## 智能体目录
 
-Agents are organized into divisions. See the [main README](../../README.md) for
-the full roster of 61 specialists.
+智能体按部门组织。完整 61 位专家名单请参阅 [主 README](../../README.md)。

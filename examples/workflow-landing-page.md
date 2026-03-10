@@ -1,25 +1,25 @@
-# Multi-Agent Workflow: Landing Page Sprint
+# 多 Agent 工作流：落地页冲刺
 
-> Ship a conversion-optimized landing page in one day using 4 agents.
+> 使用 4 个 agents 在一天内交付一个转化优化的落地页。
 
-## The Scenario
+## 场景
 
-You need a landing page for a new product launch. It needs to look great, convert visitors, and be live by end of day.
+你需要为新产品发布创建一个落地页。它需要美观、能转化访客，并在当天上线。
 
-## Agent Team
+## Agent 团队
 
-| Agent | Role in this workflow |
+| Agent | 在此工作流中的角色 |
 |-------|---------------------|
-| Content Creator | Write the copy |
-| UI Designer | Design the layout and component specs |
-| Frontend Developer | Build it |
-| Growth Hacker | Optimize for conversion |
+| Content Creator | 撰写文案 |
+| UI Designer | 设计布局和组件规范 |
+| Frontend Developer | 构建页面 |
+| Growth Hacker | 优化转化 |
 
-## The Workflow
+## 工作流
 
-### Morning: Copy + Design (parallel)
+### 上午：文案 + 设计（并行）
 
-**Step 1a — Activate Content Creator**
+**步骤 1a — 激活 Content Creator**
 
 ```
 Activate Content Creator.
@@ -41,7 +41,7 @@ Sections needed:
 Keep it scannable. No fluff.
 ```
 
-**Step 1b — Activate UI Designer (in parallel)**
+**步骤 1b — 激活 UI Designer（并行）**
 
 ```
 Activate UI Designer.
@@ -57,9 +57,9 @@ Deliver:
 5. Responsive breakpoints (mobile, tablet, desktop)
 ```
 
-### Midday: Build
+### 中午：构建
 
-**Step 2 — Activate Frontend Developer**
+**步骤 2 — 激活 Frontend Developer**
 
 ```
 Activate Frontend Developer.
@@ -79,9 +79,9 @@ Requirements:
 Deliver a single index.html file ready to deploy.
 ```
 
-### Afternoon: Optimize
+### 下午：优化
 
-**Step 3 — Activate Growth Hacker**
+**步骤 3 — 激活 Growth Hacker**
 
 ```
 Activate Growth Hacker.
@@ -100,20 +100,20 @@ Evaluate:
 Give me specific changes, not general advice.
 ```
 
-## Timeline
+## 时间安排
 
-| Time | Activity | Agent |
+| 时间 | 活动 | Agent |
 |------|----------|-------|
-| 9:00 | Copy + design kick off (parallel) | Content Creator + UI Designer |
-| 11:00 | Build starts | Frontend Developer |
-| 14:00 | First version ready | — |
-| 14:30 | Conversion review | Growth Hacker |
-| 15:30 | Apply feedback | Frontend Developer |
-| 16:30 | Ship | Deploy to Vercel/Netlify |
+| 9:00 | 文案 + 设计启动（并行） | Content Creator + UI Designer |
+| 11:00 | 开始构建 | Frontend Developer |
+| 14:00 | 第一版完成 | — |
+| 14:30 | 转化评审 | Growth Hacker |
+| 15:30 | 应用反馈 | Frontend Developer |
+| 16:30 | 上线 | 部署到 Vercel/Netlify |
 
-## Key Patterns
+## 关键模式
 
-1. **Parallel kickoff**: Copy and design happen at the same time since they're independent
-2. **Merge point**: Frontend Developer needs both outputs before starting
-3. **Feedback loop**: Growth Hacker reviews, then Frontend Developer applies changes
-4. **Time-boxed**: Each step has a clear timebox to prevent scope creep
+1. **并行启动**：文案和设计同时进行，因为它们相互独立
+2. **合并点**：Frontend Developer 需要两个输出完成后才能开始
+3. **反馈循环**：Growth Hacker 评审后，Frontend Developer 应用修改
+4. **时间限制**：每个步骤都有明确的时间框，防止范围蔓延

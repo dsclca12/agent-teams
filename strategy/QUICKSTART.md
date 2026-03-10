@@ -1,158 +1,158 @@
-# ⚡ NEXUS Quick-Start Guide
+# ⚡ NEXUS 快速入门指南
 
-> **Get from zero to orchestrated multi-agent pipeline in 5 minutes.**
-
----
-
-## What is NEXUS?
-
-**NEXUS** (Network of EXperts, Unified in Strategy) turns The Agency's AI specialists into a coordinated pipeline. Instead of activating agents one at a time and hoping they work together, NEXUS defines exactly who does what, when, and how quality is verified at every step.
-
-## Choose Your Mode
-
-| I want to... | Use | Agents | Time |
-|-------------|-----|--------|------|
-| Build a complete product from scratch | **NEXUS-Full** | All | 12-24 weeks |
-| Build a feature or MVP | **NEXUS-Sprint** | 15-25 | 2-6 weeks |
-| Do a specific task (bug fix, campaign, audit) | **NEXUS-Micro** | 5-10 | 1-5 days |
+> **5 分钟内从零开始启动编排好的多 Agent 流水线。**
 
 ---
 
-## 🚀 NEXUS-Full: Start a Complete Project
+## 什么是 NEXUS？
 
-**Copy this prompt to activate the full pipeline:**
+**NEXUS**（Network of EXperts, Unified in Strategy —— 专家网络，战略统一）将 Agency 的 AI 专家转变为协调的流水线。无需逐个激活 Agent 并希望它们协同工作，NEXUS 精确定义谁做什么、何时做，以及如何在每一步验证质量。
 
-```
-Activate Agents Orchestrator in NEXUS-Full mode.
+## 选择您的模式
 
-Project: [YOUR PROJECT NAME]
-Specification: [DESCRIBE YOUR PROJECT OR LINK TO SPEC]
-
-Execute the complete NEXUS pipeline:
-- Phase 0: Discovery (Trend Researcher, Feedback Synthesizer, UX Researcher, Analytics Reporter, Legal Compliance Checker, Tool Evaluator)
-- Phase 1: Strategy (Studio Producer, Senior Project Manager, Sprint Prioritizer, UX Architect, Brand Guardian, Backend Architect, Finance Tracker)
-- Phase 2: Foundation (DevOps Automator, Frontend Developer, Backend Architect, UX Architect, Infrastructure Maintainer)
-- Phase 3: Build (Dev↔QA loops — all engineering + Evidence Collector)
-- Phase 4: Harden (Reality Checker, Performance Benchmarker, API Tester, Legal Compliance Checker)
-- Phase 5: Launch (Growth Hacker, Content Creator, all marketing agents, DevOps Automator)
-- Phase 6: Operate (Analytics Reporter, Infrastructure Maintainer, Support Responder, ongoing)
-
-Quality gates between every phase. Evidence required for all assessments.
-Maximum 3 retries per task before escalation.
-```
+| 我想要... | 使用 | Agent 数量 | 时间 |
+|----------|------|-----------|------|
+| 从零构建完整产品 | **NEXUS-Full** | 全部 | 12-24 周 |
+| 构建功能或 MVP | **NEXUS-Sprint** | 15-25 | 2-6 周 |
+| 执行特定任务（修复 Bug、活动、审计） | **NEXUS-Micro** | 5-10 | 1-5 天 |
 
 ---
 
-## 🏃 NEXUS-Sprint: Build a Feature or MVP
+## 🚀 NEXUS-Full：启动完整项目
 
-**Copy this prompt:**
+**复制此提示以激活完整流水线：**
 
 ```
-Activate Agents Orchestrator in NEXUS-Sprint mode.
+以 NEXUS-Full 模式激活 Agents Orchestrator。
 
-Feature/MVP: [DESCRIBE WHAT YOU'RE BUILDING]
-Timeline: [TARGET WEEKS]
-Skip Phase 0 (market already validated).
+项目：[您的项目名称]
+规格说明：[描述您的项目或链接到规格文档]
 
-Sprint team:
-- PM: Senior Project Manager, Sprint Prioritizer
-- Design: UX Architect, Brand Guardian
-- Engineering: Frontend Developer, Backend Architect, DevOps Automator
-- QA: Evidence Collector, Reality Checker, API Tester
-- Support: Analytics Reporter
+执行完整的 NEXUS 流水线：
+- Phase 0：发现（Trend Researcher、Feedback Synthesizer、UX Researcher、Analytics Reporter、Legal Compliance Checker、Tool Evaluator）
+- Phase 1：战略（Studio Producer、Senior Project Manager、Sprint Prioritizer、UX Architect、Brand Guardian、Backend Architect、Finance Tracker）
+- Phase 2：基础（DevOps Automator、Frontend Developer、Backend Architect、UX Architect、Infrastructure Maintainer）
+- Phase 3：构建（Dev↔QA 循环 —— 所有工程 + Evidence Collector）
+- Phase 4：加固（Reality Checker、Performance Benchmarker、API Tester、Legal Compliance Checker）
+- Phase 5：发布（Growth Hacker、Content Creator、所有营销 Agent、DevOps Automator）
+- Phase 6：运营（Analytics Reporter、Infrastructure Maintainer、Support Responder、持续进行）
 
-Begin at Phase 1 with architecture and sprint planning.
-Run Dev↔QA loops for all implementation tasks.
-Reality Checker approval required before launch.
+每个阶段之间设置质量门控。所有评估需要提供证据。
+每个任务最多 3 次重试后升级。
 ```
 
 ---
 
-## 🎯 NEXUS-Micro: Do a Specific Task
+## 🏃 NEXUS-Sprint：构建功能或 MVP
 
-**Pick your scenario and copy the prompt:**
+**复制此提示：**
 
-### Fix a Bug
 ```
-Activate Backend Architect to investigate and fix [BUG DESCRIPTION].
-After fix, activate API Tester to verify the fix.
-Then activate Evidence Collector to confirm no visual regressions.
-```
+以 NEXUS-Sprint 模式激活 Agents Orchestrator。
 
-### Run a Marketing Campaign
-```
-Activate Social Media Strategist as campaign lead for [CAMPAIGN DESCRIPTION].
-Team: Content Creator, Twitter Engager, Instagram Curator, Reddit Community Builder.
-Brand Guardian reviews all content before publishing.
-Analytics Reporter tracks performance daily.
-Growth Hacker optimizes channels weekly.
-```
+功能/MVP：[描述您正在构建的内容]
+时间线：[目标周数]
+跳过 Phase 0（市场已验证）。
 
-### Conduct a Compliance Audit
-```
-Activate Legal Compliance Checker for comprehensive compliance audit.
-Scope: [GDPR / CCPA / HIPAA / ALL]
-After audit, activate Executive Summary Generator to create stakeholder report.
-```
+冲刺团队：
+- PM：Senior Project Manager、Sprint Prioritizer
+- 设计：UX Architect、Brand Guardian
+- 工程：Frontend Developer、Backend Architect、DevOps Automator
+- QA：Evidence Collector、Reality Checker、API Tester
+- 支持：Analytics Reporter
 
-### Investigate Performance Issues
-```
-Activate Performance Benchmarker to diagnose performance issues.
-Scope: [API response times / Page load / Database queries / All]
-After diagnosis, activate Infrastructure Maintainer for optimization.
-DevOps Automator deploys any infrastructure changes.
-```
-
-### Market Research
-```
-Activate Trend Researcher for market intelligence on [DOMAIN].
-Deliverables: Competitive landscape, market sizing, trend forecast.
-After research, activate Executive Summary Generator for executive brief.
-```
-
-### UX Improvement
-```
-Activate UX Researcher to identify usability issues in [FEATURE/PRODUCT].
-After research, activate UX Architect to design improvements.
-Frontend Developer implements changes.
-Evidence Collector verifies improvements.
+从 Phase 1 开始进行架构和冲刺规划。
+对所有实现任务运行 Dev↔QA 循环。
+发布前需要 Reality Checker 审批。
 ```
 
 ---
 
-## 📁 Strategy Documents
+## 🎯 NEXUS-Micro：执行特定任务
 
-| Document | Purpose | Location |
-|----------|---------|----------|
-| **Master Strategy** | Complete NEXUS doctrine | `strategy/nexus-strategy.md` |
-| **Phase 0 Playbook** | Discovery & intelligence | `strategy/playbooks/phase-0-discovery.md` |
-| **Phase 1 Playbook** | Strategy & architecture | `strategy/playbooks/phase-1-strategy.md` |
-| **Phase 2 Playbook** | Foundation & scaffolding | `strategy/playbooks/phase-2-foundation.md` |
-| **Phase 3 Playbook** | Build & iterate | `strategy/playbooks/phase-3-build.md` |
-| **Phase 4 Playbook** | Quality & hardening | `strategy/playbooks/phase-4-hardening.md` |
-| **Phase 5 Playbook** | Launch & growth | `strategy/playbooks/phase-5-launch.md` |
-| **Phase 6 Playbook** | Operate & evolve | `strategy/playbooks/phase-6-operate.md` |
-| **Activation Prompts** | Ready-to-use agent prompts | `strategy/coordination/agent-activation-prompts.md` |
-| **Handoff Templates** | Standardized handoff formats | `strategy/coordination/handoff-templates.md` |
-| **Startup MVP Runbook** | 4-6 week MVP build | `strategy/runbooks/scenario-startup-mvp.md` |
-| **Enterprise Feature Runbook** | Enterprise feature development | `strategy/runbooks/scenario-enterprise-feature.md` |
-| **Marketing Campaign Runbook** | Multi-channel campaign | `strategy/runbooks/scenario-marketing-campaign.md` |
-| **Incident Response Runbook** | Production incident handling | `strategy/runbooks/scenario-incident-response.md` |
+**选择您的场景并复制提示：**
+
+### 修复 Bug
+```
+激活 Backend Architect 调查并修复 [Bug 描述]。
+修复后，激活 API Tester 验证修复。
+然后激活 Evidence Collector 确认没有视觉回归。
+```
+
+### 运行营销活动
+```
+激活 Social Media Strategist 作为 [活动描述] 的活动负责人。
+团队：Content Creator、Twitter Engager、Instagram Curator、Reddit Community Builder。
+Brand Guardian 在发布前审核所有内容。
+Analytics Reporter 每日跟踪表现。
+Growth Hacker 每周优化渠道。
+```
+
+### 进行合规审计
+```
+激活 Legal Compliance Checker 进行全面合规审计。
+范围：[GDPR / CCPA / HIPAA / 全部]
+审计后，激活 Executive Summary Generator 创建利益相关者报告。
+```
+
+### 调查性能问题
+```
+激活 Performance Benchmarker 诊断性能问题。
+范围：[API 响应时间 / 页面加载 / 数据库查询 / 全部]
+诊断后，激活 Infrastructure Maintainer 进行优化。
+DevOps Automator 部署任何基础设施变更。
+```
+
+### 市场研究
+```
+激活 Trend Researcher 对 [领域] 进行市场情报收集。
+交付物：竞争格局、市场规模估算、趋势预测。
+研究后，激活 Executive Summary Generator 生成执行简报。
+```
+
+### UX 改进
+```
+激活 UX Researcher 识别 [功能/产品] 中的可用性问题。
+研究后，激活 UX Architect 设计改进方案。
+Frontend Developer 实现变更。
+Evidence Collector 验证改进。
+```
 
 ---
 
-## 🔑 Key Concepts in 30 Seconds
+## 📁 策略文档
 
-1. **Quality Gates** — No phase advances without evidence-based approval
-2. **Dev↔QA Loop** — Every task is built then tested; PASS to proceed, FAIL to retry (max 3)
-3. **Handoffs** — Structured context transfer between agents (never start cold)
-4. **Reality Checker** — Final quality authority; defaults to "NEEDS WORK"
-5. **Agents Orchestrator** — Pipeline controller managing the entire flow
-6. **Evidence Over Claims** — Screenshots, test results, and data — not assertions
+| 文档 | 用途 | 位置 |
+|------|------|------|
+| **主策略文档** | 完整 NEXUS 规范 | `strategy/nexus-strategy.md` |
+| **Phase 0 Playbook** | 发现与情报 | `strategy/playbooks/phase-0-discovery.md` |
+| **Phase 1 Playbook** | 战略与架构 | `strategy/playbooks/phase-1-strategy.md` |
+| **Phase 2 Playbook** | 基础与脚手架 | `strategy/playbooks/phase-2-foundation.md` |
+| **Phase 3 Playbook** | 构建与迭代 | `strategy/playbooks/phase-3-build.md` |
+| **Phase 4 Playbook** | 质量与加固 | `strategy/playbooks/phase-4-hardening.md` |
+| **Phase 5 Playbook** | 发布与增长 | `strategy/playbooks/phase-5-launch.md` |
+| **Phase 6 Playbook** | 运营与演进 | `strategy/playbooks/phase-6-operate.md` |
+| **激活提示** | 即用型 Agent 提示 | `strategy/coordination/agent-activation-prompts.md` |
+| **交接模板** | 标准化交接格式 | `strategy/coordination/handoff-templates.md` |
+| **Startup MVP Runbook** | 4-6 周 MVP 构建 | `strategy/runbooks/scenario-startup-mvp.md` |
+| **Enterprise Feature Runbook** | 企业功能开发 | `strategy/runbooks/scenario-enterprise-feature.md` |
+| **Marketing Campaign Runbook** | 多渠道营销活动 | `strategy/runbooks/scenario-marketing-campaign.md` |
+| **Incident Response Runbook** | 生产事件处理 | `strategy/runbooks/scenario-incident-response.md` |
 
 ---
 
-## 🎭 The Agents at a Glance
+## 🔑 30 秒核心概念
+
+1. **质量门控（Quality Gates）** —— 没有基于证据的审批，任何阶段都不能推进
+2. **Dev↔QA 循环** —— 每个任务都是先构建后测试；通过才能继续，失败则重试（最多 3 次）
+3. **交接（Handoffs）** —— Agent 之间结构化的上下文传递（永远不要冷启动）
+4. **Reality Checker** —— 最终质量权威；默认"需要修改"
+5. **Agents Orchestrator** —— 管理整个流程的流水线控制器
+6. **证据胜于声明** —— 截图、测试结果和数据 —— 不是断言
+
+---
+
+## 🎭 Agent 一览
 
 ```
 ENGINEERING         │ DESIGN              │ MARKETING
@@ -187,8 +187,8 @@ Exec Summary Gen.   │ Terminal Integration│ Report Distribution
 
 <div align="center">
 
-**Start with a mode. Follow the playbook. Trust the pipeline.**
+**选择一个模式。遵循 Playbook。信任流水线。**
 
-`strategy/nexus-strategy.md` — The complete doctrine
+`strategy/nexus-strategy.md` —— 完整规范
 
 </div>

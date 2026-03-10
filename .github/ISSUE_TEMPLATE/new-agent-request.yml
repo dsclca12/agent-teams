@@ -1,19 +1,19 @@
-name: New Agent Request
-description: Suggest a new agent to add to The Agency
+name: 新代理请求
+description: 建议添加到 The Agency 的新代理
 labels: ["enhancement", "new-agent"]
 body:
   - type: input
     id: agent-name
     attributes:
-      label: Agent Name
-      placeholder: e.g. Database Engineer
+      label: 代理名称
+      placeholder: 例如 数据库工程师
     validations:
       required: true
 
   - type: dropdown
     id: category
     attributes:
-      label: Category
+      label: 类别
       options:
         - engineering
         - design
@@ -25,22 +25,22 @@ body:
         - spatial-computing
         - specialized
         - strategy
-        - new category (describe below)
+        - 新类别（请在下方描述）
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: What would this agent do?
-      placeholder: Describe the agent's specialty, when you'd use it, and what gap it fills.
+      label: 这个代理会做什么？
+      placeholder: 描述代理的专业领域、何时使用以及它填补什么空白。
     validations:
       required: true
 
   - type: textarea
     id: use-cases
     attributes:
-      label: Example use cases
-      placeholder: Give 2-3 real scenarios where this agent would be useful.
+      label: 示例用例
+      placeholder: 提供 2-3 个该代理有用的真实场景。
     validations:
       required: false

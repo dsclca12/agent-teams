@@ -1,28 +1,28 @@
-# Multi-Agent Workflow: Startup MVP
+# 多 Agent 工作流：创业 MVP
 
-> A step-by-step example of how to coordinate multiple agents to go from idea to shipped MVP.
+> 协调多个 agents 从创意到交付 MVP 的分步示例。
 
-## The Scenario
+## 场景
 
-You're building a SaaS MVP — a team retrospective tool for remote teams. You have 4 weeks to ship a working product with user signups, a core feature, and a landing page.
+你正在构建一个 SaaS MVP —— 一个面向远程团队的团队回顾工具。你有 4 周时间交付一个可运行的产品，包含用户注册、核心功能和落地页。
 
-## Agent Team
+## Agent 团队
 
-| Agent | Role in this workflow |
+| Agent | 在此工作流中的角色 |
 |-------|---------------------|
-| Sprint Prioritizer | Break the project into weekly sprints |
-| UX Researcher | Validate the idea with quick user interviews |
-| Backend Architect | Design the API and data model |
-| Frontend Developer | Build the React app |
-| Rapid Prototyper | Get the first version running fast |
-| Growth Hacker | Plan launch strategy while building |
-| Reality Checker | Gate each milestone before moving on |
+| Sprint Prioritizer | 将项目分解为每周冲刺 |
+| UX Researcher | 通过快速用户访谈验证创意 |
+| Backend Architect | 设计 API 和数据模型 |
+| Frontend Developer | 构建 React 应用 |
+| Rapid Prototyper | 快速让第一版运行起来 |
+| Growth Hacker | 在构建过程中规划发布策略 |
+| Reality Checker | 在进入下一阶段前把控每个里程碑 |
 
-## The Workflow
+## 工作流
 
-### Week 1: Discovery + Architecture
+### 第 1 周：发现 + 架构
 
-**Step 1 — Activate Sprint Prioritizer**
+**步骤 1 — 激活 Sprint Prioritizer**
 
 ```
 Activate Sprint Prioritizer.
@@ -35,7 +35,7 @@ Constraints: solo developer, React + Node.js stack, deploy to Vercel + Railway.
 Break this into 4 weekly sprints with clear deliverables and acceptance criteria.
 ```
 
-**Step 2 — Activate UX Researcher (in parallel)**
+**步骤 2 — 激活 UX Researcher（并行）**
 
 ```
 Activate UX Researcher.
@@ -51,7 +51,7 @@ Run a quick competitive analysis and identify:
 Output a 1-page research brief.
 ```
 
-**Step 3 — Hand off to Backend Architect**
+**步骤 3 — 移交给 Backend Architect**
 
 ```
 Activate Backend Architect.
@@ -69,9 +69,9 @@ Deliver:
 4. Auth strategy recommendation
 ```
 
-### Week 2: Build Core Features
+### 第 2 周：构建核心功能
 
-**Step 4 — Activate Frontend Developer + Rapid Prototyper**
+**步骤 4 — 激活 Frontend Developer + Rapid Prototyper**
 
 ```
 Activate Frontend Developer.
@@ -87,7 +87,7 @@ Start with the Board view — it's the core experience.
 Focus on real-time: when one user adds a card, everyone sees it.
 ```
 
-**Step 5 — Reality Check at midpoint**
+**步骤 5 — 中期现实检查**
 
 ```
 Activate Reality Checker.
@@ -105,9 +105,9 @@ Evaluate:
 3. Any technical debt that will bite us at launch?
 ```
 
-### Week 3: Polish + Landing Page
+### 第 3 周：打磨 + 落地页
 
-**Step 6 — Frontend Developer continues, Growth Hacker starts**
+**步骤 6 — Frontend Developer 继续，Growth Hacker 启动**
 
 ```
 Activate Growth Hacker.
@@ -123,9 +123,9 @@ Create a launch plan:
 4. Metrics to track in week 1
 ```
 
-### Week 4: Launch
+### 第 4 周：发布
 
-**Step 7 — Final Reality Check**
+**步骤 7 — 最终现实检查**
 
 ```
 Activate Reality Checker.
@@ -141,15 +141,15 @@ Run through the launch checklist and give a GO / NO-GO decision.
 Require evidence for each criterion.
 ```
 
-## Key Patterns
+## 关键模式
 
-1. **Sequential handoffs**: Each agent's output becomes the next agent's input
-2. **Parallel work**: UX Researcher and Sprint Prioritizer can run simultaneously in Week 1
-3. **Quality gates**: Reality Checker at midpoint and before launch prevents shipping broken code
-4. **Context passing**: Always paste previous agent outputs into the next prompt — agents don't share memory
+1. **顺序交接**：每个 agent 的输出成为下一个 agent 的输入
+2. **并行工作**：UX Researcher 和 Sprint Prioritizer 可以在第 1 周同时运行
+3. **质量关卡**：在中期和发布前的 Reality Checker 防止交付有问题的代码
+4. **上下文传递**：始终将前一个 agent 的输出粘贴到下一个 prompt 中 —— agents 不共享记忆
 
-## Tips
+## 提示
 
-- Copy-paste agent outputs between steps — don't summarize, use the full output
-- If a Reality Checker flags an issue, loop back to the relevant specialist to fix it
-- Keep the Orchestrator agent in mind for automating this flow once you're comfortable with the manual version
+- 在步骤之间复制粘贴 agent 输出 —— 不要摘要，使用完整输出
+- 如果 Reality Checker 标记了问题，回到相关专家修复它
+- 一旦你熟悉了手动版本，可以考虑使用 Orchestrator agent 来自动化这个流程

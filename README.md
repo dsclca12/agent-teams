@@ -1,6 +1,6 @@
-# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow
+# 🎭 The Agency：随时准备改变您工作流程的 AI 专家团队
 
-> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+> **触手可及的完整 AI 代理机构** —— 从前端开发专家到 Reddit 社区运营高手，从趣味注入师到现实核查员。每个代理都是拥有独特个性、专业流程和成熟交付成果的领域专家。
 
 [![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,365 +9,365 @@
 
 ---
 
-## 🚀 What Is This?
+## 🚀 这是什么？
 
-Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:
+源于一次 Reddit 帖子和数月的迭代打磨，**The Agency** 是一个不断增长的精心设计的 AI 代理人格集合。每个代理都：
 
-- **🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)
-- **🧠 Personality-Driven**: Unique voice, communication style, and approach
-- **📋 Deliverable-Focused**: Real code, processes, and measurable outcomes
-- **✅ Production-Ready**: Battle-tested workflows and success metrics
+- **🎯 高度专业化**：深入领域专业知识（而非通用提示模板）
+- **🧠 个性驱动**：独特的声音、沟通风格和工作方式
+- **📋 交付导向**：真实代码、流程和可衡量的成果
+- **✅ 生产就绪**：经过实战检验的工作流程和成功指标
 
-**Think of it as**: Assembling your dream team, except they're AI specialists who never sleep, never complain, and always deliver.
+**把它想象成**：组建您的梦之队，只不过他们是永不休息、从不抱怨、始终交付的 AI 专家。
 
 ---
 
-## ⚡ Quick Start
+## ⚡ 快速开始
 
-### Option 1: Use with Claude Code (Recommended)
+### 方式一：配合 Claude Code 使用（推荐）
 
 ```bash
-# Copy agents to your Claude Code directory
+# 复制代理到您的 Claude Code 目录
 cp -r agency-agents/* ~/.claude/agents/
 
-# Now activate any agent in your Claude Code sessions:
+# 现在在您的 Claude Code 会话中激活任意代理：
 # "Hey Claude, activate Frontend Developer mode and help me build a React component"
 ```
 
-### Option 2: Use as Reference
+### 方式二：作为参考使用
 
-Each agent file contains:
-- Identity & personality traits
-- Core mission & workflows
-- Technical deliverables with code examples
-- Success metrics & communication style
+每个代理文件包含：
+- 身份与个性特征
+- 核心使命与工作流程
+- 带代码示例的技术交付成果
+- 成功指标与沟通风格
 
-Browse the agents below and copy/adapt the ones you need!
+浏览下方代理列表，复制/适配您需要的代理！
 
-### Option 3: Use with Other Tools (Cursor, Aider, Windsurf, Gemini CLI, OpenCode)
+### 方式三：配合其他工具使用（Cursor、Aider、Windsurf、Gemini CLI、OpenCode）
 
 ```bash
-# Step 1 -- generate integration files for all supported tools
+# 步骤一 —— 为所有支持的工具生成集成文件
 ./scripts/convert.sh
 
-# Step 2 -- install interactively (auto-detects what you have installed)
+# 步骤二 —— 交互式安装（自动检测已安装的工具）
 ./scripts/install.sh
 
-# Or target a specific tool directly
+# 或直接指定特定工具
 ./scripts/install.sh --tool cursor
 ./scripts/install.sh --tool aider
 ./scripts/install.sh --tool windsurf
 ```
 
-See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
+详见下方的[多工具集成](#-多工具集成)章节。
 
 ---
 
-## 🎨 The Agency Roster
+## 🎨 代理团队名册
 
-### 💻 Engineering Division
+### 💻 工程部门
 
-Building the future, one commit at a time.
+一次提交，构建未来。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🎨 [Frontend Developer](engineering/engineering-frontend-developer.md) | React/Vue/Angular, UI implementation, performance | Modern web apps, pixel-perfect UIs, Core Web Vitals optimization |
-| 🏗️ [Backend Architect](engineering/engineering-backend-architect.md) | API design, database architecture, scalability | Server-side systems, microservices, cloud infrastructure |
-| 📱 [Mobile App Builder](engineering/engineering-mobile-app-builder.md) | iOS/Android, React Native, Flutter | Native and cross-platform mobile applications |
-| 🤖 [AI Engineer](engineering/engineering-ai-engineer.md) | ML models, deployment, AI integration | Machine learning features, data pipelines, AI-powered apps |
-| 🚀 [DevOps Automator](engineering/engineering-devops-automator.md) | CI/CD, infrastructure automation, cloud ops | Pipeline development, deployment automation, monitoring |
-| ⚡ [Rapid Prototyper](engineering/engineering-rapid-prototyper.md) | Fast POC development, MVPs | Quick proof-of-concepts, hackathon projects, fast iteration |
-| 💎 [Senior Developer](engineering/engineering-senior-developer.md) | Laravel/Livewire, advanced patterns | Complex implementations, architecture decisions |
-| 🔒 [Security Engineer](engineering/engineering-security-engineer.md) | Threat modeling, secure code review, security architecture | Application security, vulnerability assessment, security CI/CD |
+| 🎨 [前端开发工程师](engineering/engineering-frontend-developer.md) | React/Vue/Angular、UI 实现、性能优化 | 现代网络应用、像素级完美的 UI、Core Web Vitals 优化 |
+| 🏗️ [后端架构师](engineering/engineering-backend-architect.md) | API 设计、数据库架构、可扩展性 | 服务端系统、微服务、云基础设施 |
+| 📱 [移动应用开发工程师](engineering/engineering-mobile-app-builder.md) | iOS/Android、React Native、Flutter | 原生和跨平台移动应用程序 |
+| 🤖 [AI 工程师](engineering/engineering-ai-engineer.md) | 机器学习模型、部署、AI 集成 | 机器学习功能、数据管道、AI 驱动的应用 |
+| 🚀 [DevOps 自动化工程师](engineering/engineering-devops-automator.md) | CI/CD、基础设施自动化、云运维 | 流水线开发、部署自动化、监控 |
+| ⚡ [快速原型开发工程师](engineering/engineering-rapid-prototyper.md) | 快速 POC 开发、MVP | 快速概念��证、黑客马拉松项目、快速迭代 |
+| 💎 [高级开发工程师](engineering/engineering-senior-developer.md) | Laravel/Livewire、高级设计模式 | 复杂实现、架构决策 |
+| 🔒 [安全工程师](engineering/engineering-security-engineer.md) | 威胁建模、安全代码审查、安全架构 | 应用安全、漏洞评估、安全 CI/CD |
 
-### 🎨 Design Division
+### 🎨 设计部门
 
-Making it beautiful, usable, and delightful.
+让产品美观、易用、令人愉悦。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🎯 [UI Designer](design/design-ui-designer.md) | Visual design, component libraries, design systems | Interface creation, brand consistency, component design |
-| 🔍 [UX Researcher](design/design-ux-researcher.md) | User testing, behavior analysis, research | Understanding users, usability testing, design insights |
-| 🏛️ [UX Architect](design/design-ux-architect.md) | Technical architecture, CSS systems, implementation | Developer-friendly foundations, implementation guidance |
-| 🎭 [Brand Guardian](design/design-brand-guardian.md) | Brand identity, consistency, positioning | Brand strategy, identity development, guidelines |
-| 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia content | Compelling visual stories, brand storytelling |
-| ✨ [Whimsy Injector](design/design-whimsy-injector.md) | Personality, delight, playful interactions | Adding joy, micro-interactions, Easter eggs, brand personality |
-| 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
+| 🎯 [UI 设计师](design/design-ui-designer.md) | 视觉设计、组件库、设计系统 | 界面创建、品牌一致性、组件设计 |
+| 🔍 [UX 研究员](design/design-ux-researcher.md) | 用户测试、行为分析、研究 | 理解用户、可用性测试、设计洞察 |
+| 🏛️ [UX 架构师](design/design-ux-architect.md) | 技术架构、CSS 系统、实施 | 对开发者友好的基础、实施指导 |
+| 🎭 [品牌守护者](design/design-brand-guardian.md) | 品牌身份、一致性、定位 | 品牌战略、身份开发、品牌指南 |
+| 📖 [视觉叙事专家](design/design-visual-storyteller.md) | 视觉叙事、多媒体内容 | 引人入胜的视觉故事、品牌叙事 |
+| ✨ [趣味注入师](design/design-whimsy-injector.md) | 个性、愉悦感、趣味交互 | 增添乐趣、微交互、彩蛋、品牌个性 |
+| 📷 [图像提示词工程师](design/design-image-prompt-engineer.md) | AI 图像生成提示词、摄影 | Midjourney、DALL-E、Stable Diffusion 摄影提示词 |
 
-### 📢 Marketing Division
+### 📢 营销部门
 
-Growing your audience, one authentic interaction at a time.
+一次真诚互动，增长一位受众。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🚀 [Growth Hacker](marketing/marketing-growth-hacker.md) | Rapid user acquisition, viral loops, experiments | Explosive growth, user acquisition, conversion optimization |
-| 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content, editorial calendars | Content strategy, copywriting, brand storytelling |
-| 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement, thought leadership | Twitter strategy, LinkedIn campaigns, professional social |
-| 📱 [TikTok Strategist](marketing/marketing-tiktok-strategist.md) | Viral content, algorithm optimization | TikTok growth, viral content, Gen Z/Millennial audience |
-| 📸 [Instagram Curator](marketing/marketing-instagram-curator.md) | Visual storytelling, community building | Instagram strategy, aesthetic development, visual content |
-| 🤝 [Reddit Community Builder](marketing/marketing-reddit-community-builder.md) | Authentic engagement, value-driven content | Reddit strategy, community trust, authentic marketing |
-| 📱 [App Store Optimizer](marketing/marketing-app-store-optimizer.md) | ASO, conversion optimization, discoverability | App marketing, store optimization, app growth |
-| 🌐 [Social Media Strategist](marketing/marketing-social-media-strategist.md) | Cross-platform strategy, campaigns | Overall social strategy, multi-platform campaigns |
-| 📕 [Xiaohongshu Specialist](marketing/marketing-xiaohongshu-specialist.md) | Lifestyle content, trend-driven strategy | Xiaohongshu growth, aesthetic storytelling, Gen Z audience |
-| 💬 [WeChat Official Account Manager](marketing/marketing-wechat-official-account.md) | Subscriber engagement, content marketing | WeChat OA strategy, community building, conversion optimization |
-| 🧠 [Zhihu Strategist](marketing/marketing-zhihu-strategist.md) | Thought leadership, knowledge-driven engagement | Zhihu authority building, Q&A strategy, lead generation |
+| 🚀 [增长黑客](marketing/marketing-growth-hacker.md) | 快速用户获取、病毒式传播循环、实验 | 爆发式增长、用户获取、转化优化 |
+| 📝 [内容创作者](marketing/marketing-content-creator.md) | 多平台内容、编辑日历 | 内容战略、文案撰写、品牌叙事 |
+| 🐦 [Twitter 互动专家](marketing/marketing-twitter-engager.md) | 实时互动、思想领导力 | Twitter 战略、LinkedIn 活动、专业社交 |
+| 📱 [TikTok 策略师](marketing/marketing-tiktok-strategist.md) | 病毒式内容、算法优化 | TikTok 增长、病毒式内容、Z 世代/千禧一代受众 |
+| 📸 [Instagram 策展人](marketing/marketing-instagram-curator.md) | 视觉叙事、社区建设 | Instagram 战略、美学开发、视觉内容 |
+| 🤝 [Reddit 社区建设者](marketing/marketing-reddit-community-builder.md) | 真诚互动、价值驱动内容 | Reddit 战略、社区信任、真实营销 |
+| 📱 [应用商店优化师](marketing/marketing-app-store-optimizer.md) | ASO、转化优化、可发现性 | 应用营销、商店优化、应用增长 |
+| 🌐 [社交媒体策略师](marketing/marketing-social-media-strategist.md) | 跨平台战略、活动策划 | 整体社交战略、多平台活动 |
+| 📕 [小红书运营专家](marketing/marketing-xiaohongshu-specialist.md) | 生活方式内容、趋势驱动策略 | 小红书增长、美学叙事、Z 世代受众 |
+| 💬 [微信公众号运营专家](marketing/marketing-wechat-official-account.md) | 订阅者互动、内容营销 | 微信公众号战略、社区建设、转化优化 |
+| 🧠 [知乎策略师](marketing/marketing-zhihu-strategist.md) | 思想领导力、知识驱动互动 | 知乎权威建设、问答策略、线索获取 |
 
-### 📊 Product Division
+### 📊 产品部门
 
-Building the right thing at the right time.
+在正确的时间构建正确的产品。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, feature prioritization | Sprint planning, resource allocation, backlog management |
-| 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
-| 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
+| 🎯 [Sprint 优先级排序师](product/product-sprint-prioritizer.md) | 敏捷规划、功能优先级 | Sprint 规划、资源分配、待办事项管理 |
+| 🔍 [趋势研究员](product/product-trend-researcher.md) | 市场情报、竞争分析 | 市场研究、机会评估、趋势识别 |
+| 💬 [反馈综合师](product/product-feedback-synthesizer.md) | 用户反馈分析、洞察提取 | 反馈分析��用户洞察、产品优先级 |
 
-### 🎬 Project Management Division
+### 🎬 项目管理部门
 
-Keeping the trains running on time (and under budget).
+确保项目按时（且在预算内）完成。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🎬 [Studio Producer](project-management/project-management-studio-producer.md) | High-level orchestration, portfolio management | Multi-project oversight, strategic alignment, resource allocation |
-| 🐑 [Project Shepherd](project-management/project-management-project-shepherd.md) | Cross-functional coordination, timeline management | End-to-end project coordination, stakeholder management |
-| ⚙️ [Studio Operations](project-management/project-management-studio-operations.md) | Day-to-day efficiency, process optimization | Operational excellence, team support, productivity |
-| 🧪 [Experiment Tracker](project-management/project-management-experiment-tracker.md) | A/B tests, hypothesis validation | Experiment management, data-driven decisions, testing |
-| 👔 [Senior Project Manager](project-management/project-manager-senior.md) | Realistic scoping, task conversion | Converting specs to tasks, scope management |
+| 🎬 [工作室制作人](project-management/project-management-studio-producer.md) | 高层协调、组合管理 | 多项目监督、战略对齐、资源分配 |
+| 🐑 [项目守护者](project-management/project-management-project-shepherd.md) | 跨职能协调、时间线管理 | 端到端项目协调、利益相关者管理 |
+| ⚙️ [工作室运营专家](project-management/project-management-studio-operations.md) | 日常效率、流程优化 | 运营卓越、团队支持、生产力提升 |
+| 🧪 [实验追踪师](project-management/project-management-experiment-tracker.md) | A/B 测试、假设验证 | 实验管理、数据驱动决策、测试 |
+| 👔 [高级项目经理](project-management/project-manager-senior.md) | 现实范围评估、任务转换 | 将规格转化为任务、范围管理 |
 
-### 🧪 Testing Division
+### 🧪 测试部门
 
-Breaking things so users don't have to.
+替用户发现问题，让他们不必自己遇到。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 📸 [Evidence Collector](testing/testing-evidence-collector.md) | Screenshot-based QA, visual proof | UI testing, visual verification, bug documentation |
-| 🔍 [Reality Checker](testing/testing-reality-checker.md) | Evidence-based certification, quality gates | Production readiness, quality approval, release certification |
-| 📊 [Test Results Analyzer](testing/testing-test-results-analyzer.md) | Test evaluation, metrics analysis | Test output analysis, quality insights, coverage reporting |
-| ⚡ [Performance Benchmarker](testing/testing-performance-benchmarker.md) | Performance testing, optimization | Speed testing, load testing, performance tuning |
-| 🔌 [API Tester](testing/testing-api-tester.md) | API validation, integration testing | API testing, endpoint verification, integration QA |
-| 🛠️ [Tool Evaluator](testing/testing-tool-evaluator.md) | Technology assessment, tool selection | Evaluating tools, software recommendations, tech decisions |
-| 🔄 [Workflow Optimizer](testing/testing-workflow-optimizer.md) | Process analysis, workflow improvement | Process optimization, efficiency gains, automation opportunities |
-| ♿ [Accessibility Auditor](testing/testing-accessibility-auditor.md) | WCAG auditing, assistive technology testing | Accessibility compliance, screen reader testing, inclusive design verification |
+| 📸 [证据收集师](testing/testing-evidence-collector.md) | 基于截图的 QA、视觉证明 | UI 测试、视觉验证、Bug 文档 |
+| 🔍 [现实核查员](testing/testing-reality-checker.md) | 基于证据的认证、质量关卡 | 生产就绪、质量审批、发布认证 |
+| 📊 [测试结果分析师](testing/testing-test-results-analyzer.md) | 测试评估、指标分析 | 测试输出分析、质量洞察、覆盖率报告 |
+| ⚡ [性能基准测试师](testing/testing-performance-benchmarker.md) | 性能测试、优化 | 速度测试、负载测试、性能调优 |
+| 🔌 [API 测试师](testing/testing-api-tester.md) | API 验证、集成测试 | API 测试、端点验证、集成 QA |
+| 🛠️ [工具评估师](testing/testing-tool-evaluator.md) | 技术评估、工具选择 | 评估工具、软件推荐、技术决策 |
+| 🔄 [工作流程优化师](testing/testing-workflow-optimizer.md) | 流程分析、工作流程改进 | 流程优化、效率提升、自动化机会 |
+| ♿ [无障碍审计师](testing/testing-accessibility-auditor.md) | WCAG 审计、辅助技术测试 | 无障碍合规、屏幕阅读器测试、包容性设计验证 |
 
-### 🛟 Support Division
+### 🛟 支持部门
 
-The backbone of the operation.
+运营的中坚力量。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 💬 [Support Responder](support/support-support-responder.md) | Customer service, issue resolution | Customer support, user experience, support operations |
-| 📊 [Analytics Reporter](support/support-analytics-reporter.md) | Data analysis, dashboards, insights | Business intelligence, KPI tracking, data visualization |
-| 💰 [Finance Tracker](support/support-finance-tracker.md) | Financial planning, budget management | Financial analysis, cash flow, business performance |
-| 🏗️ [Infrastructure Maintainer](support/support-infrastructure-maintainer.md) | System reliability, performance optimization | Infrastructure management, system operations, monitoring |
-| ⚖️ [Legal Compliance Checker](support/support-legal-compliance-checker.md) | Compliance, regulations, legal review | Legal compliance, regulatory requirements, risk management |
-| 📑 [Executive Summary Generator](support/support-executive-summary-generator.md) | C-suite communication, strategic summaries | Executive reporting, strategic communication, decision support |
+| 💬 [支持响应师](support/support-support-responder.md) | 客户服务、问题解决 | 客户支持、用户体验、支持运营 |
+| 📊 [分析报告师](support/support-analytics-reporter.md) | 数据分析、仪表板、洞察 | 商业智能、KPI 追踪、数据可视化 |
+| 💰 [财务追踪师](support/support-finance-tracker.md) | 财务规划、预算管理 | 财务分析、现金流、业务绩效 |
+| 🏗️ [基础设施维护师](support/support-infrastructure-maintainer.md) | 系统可靠性、性能优化 | 基础设施管理、系统运维、监控 |
+| ⚖️ [法务合规检查师](support/support-legal-compliance-checker.md) | 合规、法规、法律审查 | 法律合规、监管要求、风险管理 |
+| 📑 [执行摘要生成师](support/support-executive-summary-generator.md) | 高管沟通、战略摘要 | 高管报告、战略沟通、决策支持 |
 
-### 🥽 Spatial Computing Division
+### 🥽 空间计算部门
 
-Building the immersive future.
+构建沉浸式未来。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🏗️ [XR Interface Architect](spatial-computing/xr-interface-architect.md) | Spatial interaction design, immersive UX | AR/VR/XR interface design, spatial computing UX |
-| 💻 [macOS Spatial/Metal Engineer](spatial-computing/macos-spatial-metal-engineer.md) | Swift, Metal, high-performance 3D | macOS spatial computing, Vision Pro native apps |
-| 🌐 [XR Immersive Developer](spatial-computing/xr-immersive-developer.md) | WebXR, browser-based AR/VR | Browser-based immersive experiences, WebXR apps |
-| 🎮 [XR Cockpit Interaction Specialist](spatial-computing/xr-cockpit-interaction-specialist.md) | Cockpit-based controls, immersive systems | Cockpit control systems, immersive control interfaces |
-| 🍎 [visionOS Spatial Engineer](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro development | Vision Pro apps, spatial computing experiences |
-| 🔌 [Terminal Integration Specialist](spatial-computing/terminal-integration-specialist.md) | Terminal integration, command-line tools | CLI tools, terminal workflows, developer tools |
+| 🏗️ [XR 界面架构师](spatial-computing/xr-interface-architect.md) | 空间交互设计、沉浸式 UX | AR/VR/XR 界面设计、空间计算 UX |
+| 💻 [macOS 空间/Metal 工程师](spatial-computing/macos-spatial-metal-engineer.md) | Swift、Metal、高性能 3D | macOS 空间计算、Vision Pro 原生应用 |
+| 🌐 [XR 沉浸式开发工程师](spatial-computing/xr-immersive-developer.md) | WebXR、基于浏览器的 AR/VR | 基于浏览器的沉浸式体验、WebXR 应用 |
+| 🎮 [XR 座舱交互专家](spatial-computing/xr-cockpit-interaction-specialist.md) | 座舱式控制、沉浸式系统 | 座舱控制系统、沉浸式控制界面 |
+| 🍎 [visionOS 空间工程师](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro 开发 | Vision Pro 应用、空间计算体验 |
+| 🔌 [终端集成专家](spatial-computing/terminal-integration-specialist.md) | 终端集成、命令行工具 | CLI 工具、终端工作流程、开发者工具 |
 
-### 🎯 Specialized Division
+### 🎯 专项部门
 
-The unique specialists who don't fit in a box.
+无法被归类的独特专家。
 
-| Agent | Specialty | When to Use |
+| 代理 | 专业领域 | 适用场景 |
 |-------|-----------|-------------|
-| 🎭 [Agents Orchestrator](specialized/agents-orchestrator.md) | Multi-agent coordination, workflow management | Complex projects requiring multiple agent coordination |
-| 📊 [Data Analytics Reporter](specialized/data-analytics-reporter.md) | Business intelligence, data insights | Deep data analysis, business metrics, strategic insights |
-| 🔍 [LSP/Index Engineer](specialized/lsp-index-engineer.md) | Language Server Protocol, code intelligence | Code intelligence systems, LSP implementation, semantic indexing |
-| 📥 [Sales Data Extraction Agent](specialized/sales-data-extraction-agent.md) | Excel monitoring, sales metric extraction | Sales data ingestion, MTD/YTD/Year End metrics |
-| 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Sales data aggregation, dashboard reports | Territory summaries, rep performance, pipeline snapshots |
-| 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Territory-based report distribution, scheduled sends |
-| 🔐 [Agentic Identity & Trust Architect](specialized/agentic-identity-trust.md) | Agent identity, authentication, trust verification | Multi-agent identity systems, agent authorization, audit trails |
+| 🎭 [代理协调师](specialized/agents-orchestrator.md) | 多代理协调、工作流程管理 | 需要多代理协调的复杂项目 |
+| 📊 [数据分析报告师](specialized/data-analytics-reporter.md) | 商业智能、数据洞察 | 深度数据分析、业务指标、战略洞察 |
+| 🔍 [LSP/索引工程师](specialized/lsp-index-engineer.md) | Language Server Protocol、代码智能 | 代码智能系统、LSP 实现、语义索引 |
+| 📥 [销售数据提取代理](specialized/sales-data-extraction-agent.md) | Excel 监控、销售指标提取 | 销售数据采集、MTD/YTD/年终指标 |
+| 📈 [数据整合代理](specialized/data-consolidation-agent.md) | 销售数据聚合、仪表板报告 | 区域汇总、代表绩效、管道快照 |
+| 📬 [报告分发代理](specialized/report-distribution-agent.md) | 自动化报告交付 | 基于区域的报告分发、定时发送 |
+| 🔐 [代理身份与信任架构师](specialized/agentic-identity-trust.md) | 代理身份、认证、信任验证 | 多代理身份系统、代理授权、审计追踪 |
 
 ---
 
-## 🎯 Real-World Use Cases
+## 🎯 真实世界用例
 
-### Scenario 1: Building a Startup MVP
+### 场景一：构建初创公司 MVP
 
-**Your Team**:
-1. 🎨 **Frontend Developer** - Build the React app
-2. 🏗️ **Backend Architect** - Design the API and database
-3. 🚀 **Growth Hacker** - Plan user acquisition
-4. ⚡ **Rapid Prototyper** - Fast iteration cycles
-5. 🔍 **Reality Checker** - Ensure quality before launch
+**您的团队**：
+1. 🎨 **前端开发工程师** —— 构建 React 应用
+2. 🏗️ **后端架构师** —— 设计 API 和数据库
+3. 🚀 **增长黑客** —— 规划用户获取
+4. ⚡ **快速原型开发工程师** —— 快速迭代周期
+5. 🔍 **现实核查员** —— 确保发布前质量
 
-**Result**: Ship faster with specialized expertise at every stage.
-
----
-
-### Scenario 2: Marketing Campaign Launch
-
-**Your Team**:
-1. 📝 **Content Creator** - Develop campaign content
-2. 🐦 **Twitter Engager** - Twitter strategy and execution
-3. 📸 **Instagram Curator** - Visual content and stories
-4. 🤝 **Reddit Community Builder** - Authentic community engagement
-5. 📊 **Analytics Reporter** - Track and optimize performance
-
-**Result**: Multi-channel coordinated campaign with platform-specific expertise.
+**结果**：在每个阶段都有专业知识的支持，更快交付。
 
 ---
 
-### Scenario 3: Enterprise Feature Development
+### 场景二：营销活动发布
 
-**Your Team**:
-1. 👔 **Senior Project Manager** - Scope and task planning
-2. 💎 **Senior Developer** - Complex implementation
-3. 🎨 **UI Designer** - Design system and components
-4. 🧪 **Experiment Tracker** - A/B test planning
-5. 📸 **Evidence Collector** - Quality verification
-6. 🔍 **Reality Checker** - Production readiness
+**您的团队**：
+1. 📝 **内容创作者** —— 开发活动内容
+2. 🐦 **Twitter 互动专家** —— Twitter 战略和执行
+3. 📸 **Instagram 策展人** —— 视觉内容和故事
+4. 🤝 **Reddit 社区建设者** —— 真诚的社区互动
+5. 📊 **分析报告师** —— 追踪和优化绩效
 
-**Result**: Enterprise-grade delivery with quality gates and documentation.
-
----
-
-### Scenario 4: Full Agency Product Discovery
-
-**Your Team**: All 8 divisions working in parallel on a single mission.
-
-See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd, and XR Interface Architect) were deployed simultaneously to evaluate a software opportunity and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
-
-**Result**: Comprehensive, cross-functional product blueprint produced in a single session. [More examples](examples/).
+**结果**：具有平台特定专业知识的多渠道协调活动。
 
 ---
 
-## 🤝 Contributing
+### 场景三：企业级功能开发
 
-We welcome contributions! Here's how you can help:
+**您的团队**：
+1. 👔 **高级项目经理** —— 范围和任务规划
+2. 💎 **高级开发工程师** —— 复杂实现
+3. 🎨 **UI 设计师** —— 设计系统和组件
+4. 🧪 **实验追踪师** —— A/B 测试规划
+5. 📸 **证据收集师** —— 质量验证
+6. 🔍 **现实核查员** —— 生产就绪检查
 
-### Add a New Agent
-
-1. Fork the repository
-2. Create a new agent file in the appropriate category
-3. Follow the agent template structure:
-   - Frontmatter with name, description, color
-   - Identity & Memory section
-   - Core Mission
-   - Critical Rules (domain-specific)
-   - Technical Deliverables with examples
-   - Workflow Process
-   - Success Metrics
-4. Submit a PR with your agent
-
-### Improve Existing Agents
-
-- Add real-world examples
-- Enhance code samples
-- Update success metrics
-- Improve workflows
-
-### Share Your Success Stories
-
-Have you used these agents successfully? Share your story in the [Discussions](https://github.com/msitarzewski/agency-agents/discussions)!
+**结果**：具有质量关卡和文档的企业级交付���
 
 ---
 
-## 📖 Agent Design Philosophy
+### 场景四：全代理产品发现
 
-Each agent is designed with:
+**您的团队**：所有 8 个部门同时为一个目标工作。
 
-1. **🎭 Strong Personality**: Not generic templates - real character and voice
-2. **📋 Clear Deliverables**: Concrete outputs, not vague guidance
-3. **✅ Success Metrics**: Measurable outcomes and quality standards
-4. **🔄 Proven Workflows**: Step-by-step processes that work
-5. **💡 Learning Memory**: Pattern recognition and continuous improvement
+参见 **[Nexus 空间发现演练](examples/nexus-spatial-discovery.md)** —— 一个完整示例，部署了 8 个代理（产品趋势研究员、后端架构师、品牌守护者、增长黑客、支持响应师、UX 研究员、项目守护者和 XR 界面架构师）同时评估一个软件机会，并产出一个统一的产品计划，涵盖市场验证、技术架构、品牌战略、上市策略、支持系统、UX 研究、项目执行和空间 UI 设计。
+
+**结果**：在单次会话中产出全面、跨职能的产品蓝图。[更多示例](examples/)。
 
 ---
 
-## 🎁 What Makes This Special?
+## 🤝 贡献
 
-### Unlike Generic AI Prompts:
-- ❌ Generic "Act as a developer" prompts
-- ✅ Deep specialization with personality and process
+我们欢迎贡献！以下是您可以提供帮助的方式：
 
-### Unlike Prompt Libraries:
-- ❌ One-off prompt collections
-- ✅ Comprehensive agent systems with workflows and deliverables
+### 添加新代理
 
-### Unlike AI Tools:
-- ❌ Black box tools you can't customize
-- ✅ Transparent, forkable, adaptable agent personalities
+1. Fork 本仓库
+2. 在适当的类别中创建新代理文件
+3. 遵循代理模板结构：
+   - 包含 name、description、color 的 Frontmatter
+   - 身份与记忆章节
+   - 核心使命
+   - 关键规则（领域特定）
+   - 带示例的技术交付成果
+   - 工作流程
+   - 成功指标
+4. 提交包含您代理的 PR
+
+### 改进现有代理
+
+- 添加真实世界示例
+- 增强代码示例
+- 更新成功指标
+- 改进工作流程
+
+### 分享您的成功故事
+
+您是否成功使用了这些代理？在 [讨论区](https://github.com/msitarzewski/agency-agents/discussions) 分享您的故事！
 
 ---
 
-## 🎨 Agent Personality Highlights
+## 📖 代理设计理念
 
-> "I don't just test your code - I default to finding 3-5 issues and require visual proof for everything."
+每个代理的设计包含：
+
+1. **🎭 强烈个性**：不是通用模板 —— 真实的性格和声音
+2. **📋 清晰交付成果**：具体输出，而非模糊指导
+3. **✅ 成功指标**：可衡量的结果和质量标准
+4. **🔄 经过验证的工作流程**：行之有效的分步流程
+5. **💡 学习记忆**：模式识别和持续改进
+
+---
+
+## 🎨 有什么特别之处？
+
+### 与通用 AI 提示不同：
+- ❌ 通用"扮演开发者"提示
+- ✅ 带有个性化和流程的深度专业化
+
+### 与提示库不同：
+- ❌ 一次性提示集合
+- ✅ 包含工作流程和交付成果的全面代理系统
+
+### 与 AI 工具不同：
+- ❌ 无法自定义的黑盒工具
+- ✅ 透明、可分支、可适配的代理人格
+
+---
+
+## 🎨 代理个性亮点
+
+> "我不只是测试你的代码 —— 我默认会找出 3-5 个问题，并要求一切都有视觉证明。"
 >
-> -- **Evidence Collector** (Testing Division)
+> —— **证据收集师**（测试部门）
 
-> "You're not marketing on Reddit - you're becoming a valued community member who happens to represent a brand."
+> "你不是在 Reddit 上做营销 —— 你是在成为一个恰好代表一个品牌的受重视的社区成员。"
 >
-> -- **Reddit Community Builder** (Marketing Division)
+> —— **Reddit 社区建设者**（营销部门）
 
-> "Every playful element must serve a functional or emotional purpose. Design delight that enhances rather than distracts."
+> "每个趣味元素都必须服务于功能性或情感目的。设计的是增强而非分散注意力的愉悦感。"
 >
-> -- **Whimsy Injector** (Design Division)
+> —— **趣味注入师**（设计部门）
 
-> "Let me add a celebration animation that reduces task completion anxiety by 40%"
+> "让我添加一个庆祝动画，可以将任务完成焦虑降低 40%"
 >
-> -- **Whimsy Injector** (during a UX review)
+> —— **趣味注入师**（在 UX 审查期间）
 
 ---
 
-## 📊 Stats
+## 📊 统计数据
 
-- 🎭 **61 Specialized Agents** across 9 divisions
-- 📝 **10,000+ lines** of personality, process, and code examples
-- ⏱️ **Months of iteration** from real-world usage
-- 🌟 **Battle-tested** in production environments
-- 💬 **50+ requests** in first 12 hours on Reddit
-
----
-
-## 🔌 Multi-Tool Integrations
-
-The Agency works natively with Claude Code, and ships conversion + install scripts so you can use the same agents across every major agentic coding tool.
-
-### Supported Tools
-
-- **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
-- **[Antigravity](https://github.com/google-gemini/antigravity)** — `SKILL.md` per agent → `~/.gemini/antigravity/skills/`
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — extension + `SKILL.md` files → `~/.gemini/extensions/agency-agents/`
-- **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agent/`
-- **[Cursor](https://cursor.sh)** — `.mdc` rule files → `.cursor/rules/`
-- **[Aider](https://aider.chat)** — single `CONVENTIONS.md` → `./CONVENTIONS.md`
-- **[Windsurf](https://codeium.com/windsurf)** — single `.windsurfrules` → `./.windsurfrules`
+- 🎭 **61 个专业代理** 分布在 9 个部门
+- 📝 **10,000+ 行** 个性、流程和代码示例
+- ⏱️ **数月迭代** 源于真实世界使用
+- 🌟 **经实战检验** 在生产环境中
+- 💬 **50+ 请求** 在 Reddit 上发布的头 12 小时内
 
 ---
 
-### ⚡ Quick Install
+## 🔌 多工具集成
 
-**Step 1 -- Generate integration files:**
+The Agency 原生支持 Claude Code，并提供转换 + 安装脚本，让您可以在所有主流智能编程工具中使用相同的代理。
+
+### 支持的工具
+
+- **[Claude Code](https://claude.ai/code)** —— 原生 `.md` 代理，无需转换 → `~/.claude/agents/`
+- **[Antigravity](https://github.com/google-gemini/antigravity)** —— 每个代理一个 `SKILL.md` → `~/.gemini/antigravity/skills/`
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** —— 扩展 + `SKILL.md` 文件 → `~/.gemini/extensions/agency-agents/`
+- **[OpenCode](https://opencode.ai)** —— `.md` 代理文件 → `.opencode/agent/`
+- **[Cursor](https://cursor.sh)** —— `.mdc` 规则文件 → `.cursor/rules/`
+- **[Aider](https://aider.chat)** —— 单个 `CONVENTIONS.md` → `./CONVENTIONS.md`
+- **[Windsurf](https://codeium.com/windsurf)** —— 单个 `.windsurfrules` → `./.windsurfrules`
+
+---
+
+### ⚡ 快速安装
+
+**步骤一 —— 生成集成文件：**
 ```bash
 ./scripts/convert.sh
 ```
 
-**Step 2 -- Install (interactive, auto-detects your tools):**
+**步骤二 —— 安装（交互式，自动检测您的工具）：**
 ```bash
 ./scripts/install.sh
 ```
 
-The installer scans your system for installed tools, shows a checkbox UI, and lets you pick exactly what to install:
+安装程序会扫描您系统上已安装的工具，显示复选框界面，让您精确选择要安装的内容：
 
 ```
   +------------------------------------------------+
-  |   The Agency -- Tool Installer                 |
+  |   The Agency -- 工具安装程序                    |
   +------------------------------------------------+
 
-  System scan: [*] = detected on this machine
+  系统扫描: [*] = 在此机器上检测到
 
   [x]  1)  [*]  Claude Code     (claude.ai/code)
   [x]  2)  [*]  Antigravity     (~/.gemini/antigravity)
@@ -377,226 +377,226 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
   [ ]  6)  [ ]  Aider           (CONVENTIONS.md)
   [ ]  7)  [ ]  Windsurf        (.windsurfrules)
 
-  [1-7] toggle   [a] all   [n] none   [d] detected
-  [Enter] install   [q] quit
+  [1-7] 切换   [a] 全选   [n] 全不选   [d] 已检测
+  [Enter] 安装   [q] 退出
 ```
 
-**Or install a specific tool directly:**
+**或直接安装特定工具：**
 ```bash
 ./scripts/install.sh --tool cursor
 ./scripts/install.sh --tool opencode
 ./scripts/install.sh --tool antigravity
 ```
 
-**Non-interactive (CI/scripts):**
+**非交互式（CI/脚本）：**
 ```bash
 ./scripts/install.sh --no-interactive --tool all
 ```
 
 ---
 
-### Tool-Specific Instructions
+### 特定工具说明
 
 <details>
 <summary><strong>Claude Code</strong></summary>
 
-Agents are copied directly from the repo into `~/.claude/agents/` -- no conversion needed.
+代理直接从仓库复制到 `~/.claude/agents/` —— 无需转换。
 
 ```bash
 ./scripts/install.sh --tool claude-code
 ```
 
-Then activate in Claude Code:
+然后在 Claude Code 中激活：
 ```
 Use the Frontend Developer agent to review this component.
 ```
 
-See [integrations/claude-code/README.md](integrations/claude-code/README.md) for details.
+详见 [integrations/claude-code/README.md](integrations/claude-code/README.md)。
 </details>
 
 <details>
 <summary><strong>Antigravity (Gemini)</strong></summary>
 
-Each agent becomes a skill in `~/.gemini/antigravity/skills/agency-<slug>/`.
+每个代理变成 `~/.gemini/antigravity/skills/agency-<slug>/` 中的技能。
 
 ```bash
 ./scripts/install.sh --tool antigravity
 ```
 
-Activate in Gemini with Antigravity:
+在 Gemini with Antigravity 中激活：
 ```
 @agency-frontend-developer review this React component
 ```
 
-See [integrations/antigravity/README.md](integrations/antigravity/README.md) for details.
+详见 [integrations/antigravity/README.md](integrations/antigravity/README.md)。
 </details>
 
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
-Installs as a Gemini CLI extension with 61 skills + a manifest.
+作为 Gemini CLI 扩展安装，包含 61 个技能 + 一个清单。
 
 ```bash
 ./scripts/install.sh --tool gemini-cli
 ```
 
-See [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) for details.
+详见 [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md)。
 </details>
 
 <details>
 <summary><strong>OpenCode</strong></summary>
 
-Agents are placed in `.opencode/agent/` in your project root (project-scoped).
+代理放置在项目根目录的 `.opencode/agent/` 中（项目范围）。
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool opencode
 ```
 
-Or install globally:
+或全局安装：
 ```bash
 mkdir -p ~/.config/opencode/agent
 cp integrations/opencode/agent/*.md ~/.config/opencode/agent/
 ```
 
-Activate in OpenCode:
+在 OpenCode 中激活：
 ```
 Use the Backend Architect agent to design this API.
 ```
 
-See [integrations/opencode/README.md](integrations/opencode/README.md) for details.
+详见 [integrations/opencode/README.md](integrations/opencode/README.md)。
 </details>
 
 <details>
 <summary><strong>Cursor</strong></summary>
 
-Each agent becomes a `.mdc` rule file in `.cursor/rules/` of your project.
+每个代理变成项目 `.cursor/rules/` 中的 `.mdc` 规则文件。
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool cursor
 ```
 
-Rules are auto-applied when Cursor detects them in the project. Reference them explicitly:
+当 Cursor 检测到规则时会自动应用。显式引用：
 ```
 Use the @security-engineer rules to review this code.
 ```
 
-See [integrations/cursor/README.md](integrations/cursor/README.md) for details.
+详见 [integrations/cursor/README.md](integrations/cursor/README.md)。
 </details>
 
 <details>
 <summary><strong>Aider</strong></summary>
 
-All agents are compiled into a single `CONVENTIONS.md` file that Aider reads automatically.
+所有代理编译成单个 `CONVENTIONS.md` 文件，Aider 会自动读取。
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool aider
 ```
 
-Then reference agents in your Aider session:
+然后在 Aider 会话中引用代理：
 ```
 Use the Frontend Developer agent to refactor this component.
 ```
 
-See [integrations/aider/README.md](integrations/aider/README.md) for details.
+详见 [integrations/aider/README.md](integrations/aider/README.md)。
 </details>
 
 <details>
 <summary><strong>Windsurf</strong></summary>
 
-All agents are compiled into `.windsurfrules` in your project root.
+所有代理编译成项目根目录的 `.windsurfrules`。
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool windsurf
 ```
 
-Reference agents in Windsurf's Cascade:
+在 Windsurf 的 Cascade 中引用代理：
 ```
 Use the Reality Checker agent to verify this is production ready.
 ```
 
-See [integrations/windsurf/README.md](integrations/windsurf/README.md) for details.
+详见 [integrations/windsurf/README.md](integrations/windsurf/README.md)。
 </details>
 
 ---
 
-### Regenerating After Changes
+### 更改后重新生成
 
-When you add new agents or edit existing ones, regenerate all integration files:
+当您添加新代理或编辑现有代理时，重新生成所有集成文件：
 
 ```bash
-./scripts/convert.sh        # regenerate all
-./scripts/convert.sh --tool cursor   # regenerate just one tool
+./scripts/convert.sh        # 重新生成所有
+./scripts/convert.sh --tool cursor   # 只重新生成一个工具
 ```
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ 路线图
 
-- [ ] Interactive agent selector web tool
-- [x] Multi-agent workflow examples -- see [examples/](examples/)
-- [x] Multi-tool integration scripts (Claude Code, Antigravity, Gemini CLI, OpenCode, Cursor, Aider, Windsurf)
-- [ ] Video tutorials on agent design
-- [ ] Community agent marketplace
-- [ ] Agent "personality quiz" for project matching
-- [ ] "Agent of the Week" showcase series
+- [ ] 交互式代理选择器 Web 工具
+- [x] 多代理工作流程示例 —— 见 [examples/](examples/)
+- [x] 多工具集成脚本（Claude Code、Antigravity、Gemini CLI、OpenCode、Cursor、Aider、Windsurf）
+- [ ] 代理设计视频教程
+- [ ] 社区代理市场
+- [ ] 代理"人格测验"用于项目匹配
+- [ ] "每周代理"展示系列
 
 ---
 
-## 🌐 Community Translations & Localizations
+## 🌐 社区翻译与本地化
 
-Community-maintained translations and regional adaptations. These are independently maintained -- see each repo for coverage and version compatibility.
+社区维护的翻译和区域适配版本。这些由独立维护 —— 请查看各仓库了解覆盖范围和版本兼容性。
 
-| Language | Maintainer | Link | Notes |
+| 语言 | 维护者 | 链接 | 备注 |
 |----------|-----------|------|-------|
-| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 26 translated agents + 4 China-market agents |
+| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 26 个翻译代理 + 4 个中国市场代理 |
 
-Want to add a translation? Open an issue and we'll link it here.
-
----
-
-## 📜 License
-
-MIT License - Use freely, commercially or personally. Attribution appreciated but not required.
+想添加翻译？提交一个 issue，我们会在这里链接。
 
 ---
 
-## 🙏 Acknowledgments
+## 📜 许可证
 
-Born from a Reddit discussion about AI agent specialization. Thanks to the community for the feedback, requests, and inspiration.
-
-Special recognition to the 50+ Redditors who requested this within the first 12 hours - you proved there's demand for real, specialized AI agent systems.
+MIT License - 可自由用于商业或个人用途。感谢注明出处，但不作强制要求。
 
 ---
 
-## 💬 Community
+## 🙏 致谢
 
-- **GitHub Discussions**: [Share your success stories](https://github.com/msitarzewski/agency-agents/discussions)
-- **Issues**: [Report bugs or request features](https://github.com/msitarzewski/agency-agents/issues)
-- **Reddit**: Join the conversation on r/ClaudeAI
-- **Twitter/X**: Share with #TheAgency
+源于一次关于 AI 代理专业化的 Reddit 讨论。感谢社区的反馈、请求和灵感。
+
+特别感谢在头 12 小时内提出请求的 50 多位 Reddit 用户 —— 你们证明了市场对真正专业化的 AI 代理系统的需求。
 
 ---
 
-## 🚀 Get Started
+## 💬 社区
 
-1. **Browse** the agents above and find specialists for your needs
-2. **Copy** the agents to `~/.claude/agents/` for Claude Code integration
-3. **Activate** agents by referencing them in your Claude conversations
-4. **Customize** agent personalities and workflows for your specific needs
-5. **Share** your results and contribute back to the community
+- **GitHub Discussions**: [分享您的成功故事](https://github.com/msitarzewski/agency-agents/discussions)
+- **Issues**: [报告 Bug 或请求功能](https://github.com/msitarzewski/agency-agents/issues)
+- **Reddit**: 在 r/ClaudeAI 参与讨论
+- **Twitter/X**: 使用 #TheAgency 分享
+
+---
+
+## 🚀 开始使用
+
+1. **浏览** 上方的代理列表，找到适合您需求的专家
+2. **复制** 代理到 `~/.claude/agents/` 以进行 Claude Code 集成
+3. **激活** 代理，在您的 Claude 对话中引用它们
+4. **自定义** 代理人格和工作流程以适应您的特定需求
+5. **分享** 您的结果并向社区回馈
 
 ---
 
 <div align="center">
 
-**🎭 The Agency: Your AI Dream Team Awaits 🎭**
+**🎭 The Agency：您的 AI 梦之队正在等待 🎭**
 
-[⭐ Star this repo](https://github.com/msitarzewski/agency-agents) • [🍴 Fork it](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Report an issue](https://github.com/msitarzewski/agency-agents/issues) • [❤️ Sponsor](https://github.com/sponsors/msitarzewski)
+[⭐ 给仓库加星](https://github.com/msitarzewski/agency-agents) • [🍴 Fork 它](https://github.com/msitarzewski/agency-agents/fork) • [🐛 报告问题](https://github.com/msitarzewski/agency-agents/issues) • [❤️ 赞助](https://github.com/sponsors/msitarzewski)
 
-Made with ❤️ by the community, for the community
+用 ❤️ 由社区制作，为社区服务
 
 </div>

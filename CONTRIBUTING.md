@@ -1,277 +1,277 @@
-# 🤝 Contributing to The Agency
+# 🤝 为 The Agency 做贡献
 
-First off, thank you for considering contributing to The Agency! It's people like you who make this collection of AI agents better for everyone.
+首先，感谢您考虑为 The Agency 做贡献！正是像您这样的人让这个 AI 代理集合变得更好，造福所有人。
 
-## 📋 Table of Contents
+## 📋 目录
 
-- [Code of Conduct](#code-of-conduct)
-- [How Can I Contribute?](#how-can-i-contribute)
-- [Agent Design Guidelines](#agent-design-guidelines)
-- [Pull Request Process](#pull-request-process)
-- [Style Guide](#style-guide)
-- [Community](#community)
-
----
-
-## 📜 Code of Conduct
-
-This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code:
-
-- **Be Respectful**: Treat everyone with respect. Healthy debate is encouraged, but personal attacks are not tolerated.
-- **Be Inclusive**: Welcome and support people of all backgrounds and identities.
-- **Be Collaborative**: What we create together is better than what we create alone.
-- **Be Professional**: Keep discussions focused on improving the agents and the community.
+- [行为准则](#行为准则)
+- [如何贡献？](#如何贡献)
+- [代理设计指南](#代理设计指南)
+- [Pull Request 流程](#pull-request-流程)
+- [风格指南](#风格指南)
+- [社区](#社区)
 
 ---
 
-## 🎯 How Can I Contribute?
+## 📜 行为准则
 
-### 1. Create a New Agent
+本项目及其所有参与者均受我们的行为准则约束。参与本项目即表示您同意遵守以下准则：
 
-Have an idea for a specialized agent? Great! Here's how to add one:
-
-1. **Fork the repository**
-2. **Choose the appropriate category** (or propose a new one):
-   - `engineering/` - Software development specialists
-   - `design/` - UX/UI and creative specialists
-   - `marketing/` - Growth and marketing specialists
-   - `product/` - Product management specialists
-   - `project-management/` - PM and coordination specialists
-   - `testing/` - QA and testing specialists
-   - `support/` - Operations and support specialists
-   - `spatial-computing/` - AR/VR/XR specialists
-   - `specialized/` - Unique specialists that don't fit elsewhere
-
-3. **Create your agent file** following the template below
-4. **Test your agent** in real scenarios
-5. **Submit a Pull Request** with your agent
-
-### 2. Improve Existing Agents
-
-Found a way to make an agent better? Contributions welcome:
-
-- Add real-world examples and use cases
-- Enhance code samples with modern patterns
-- Update workflows based on new best practices
-- Add success metrics and benchmarks
-- Fix typos, improve clarity, enhance documentation
-
-### 3. Share Success Stories
-
-Used these agents successfully? Share your story:
-
-- Post in [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
-- Add a case study to the README
-- Write a blog post and link it
-- Create a video tutorial
-
-### 4. Report Issues
-
-Found a problem? Let us know:
-
-- Check if the issue already exists
-- Provide clear reproduction steps
-- Include context about your use case
-- Suggest potential solutions if you have ideas
+- **尊重他人**：以尊重对待每个人。鼓励健康的辩论，但不容忍人身攻击。
+- **包容多样**：欢迎和支持各种背景和身份的人。
+- **协作共赢**：我们一起创造的东西比单独创造更好。
+- **保持专业**：保持讨论专注于改进代理和社区。
 
 ---
 
-## 🎨 Agent Design Guidelines
+## 🎯 如何贡献？
 
-### Agent File Structure
+### 1. 创建新代理
 
-Every agent should follow this structure:
+有专业代理的想法？太好了！以下是添加方法：
+
+1. **Fork 本仓库**
+2. **选择适当的类别**（或提议新类别）：
+   - `engineering/` - 软件开发专家
+   - `design/` - UX/UI 和创意专家
+   - `marketing/` - 增长和营销专家
+   - `product/` - 产品管理专家
+   - `project-management/` - 项目管理和协调专家
+   - `testing/` - QA 和测试专家
+   - `support/` - 运营和支持专家
+   - `spatial-computing/` - AR/VR/XR 专家
+   - `specialized/` - 无法归类的独特专家
+
+3. **按照下方模板创建您的代理文件**
+4. **在真实场景中测试您的代理**
+5. **提交包含您代理的 Pull Request**
+
+### 2. 改进现有代理
+
+找到改进代理的方法？欢迎贡献：
+
+- 添加真实世界示例和用例
+- 用现代设计模式增强代码示例
+- 基于新最佳实践更新工作流程
+- 添加成功指标和基准
+- 修正拼写错误、提高清晰度、增强文档
+
+### 3. 分享成功故事
+
+成功使用了这些代理？分享您的故事：
+
+- 在 [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions) 发帖
+- 向 README 添加案例研究
+- 写一篇博客文章并链接
+- 创建视频教程
+
+### 4. 报告问题
+
+发现问题？请告知我们：
+
+- 检查问题是否已存在
+- 提供清晰的复现步骤
+- 包含您的使用场景背景
+- 如果有想法，建议潜在的解决方案
+
+---
+
+## 🎨 代理设计指南
+
+### 代理文件结构
+
+每个代理应遵循此结构：
 
 ```markdown
 ---
-name: Agent Name
-description: One-line description of the agent's specialty and focus
-color: colorname or "#hexcode"
+name: 代理名称
+description: 一行描述代理的专业领域和重点
+color: 颜色名称或 "#十六进制代码"
 ---
 
-# Agent Name
+# 代理名称
 
-## 🧠 Your Identity & Memory
-- **Role**: Clear role description
-- **Personality**: Personality traits and communication style
-- **Memory**: What the agent remembers and learns
-- **Experience**: Domain expertise and perspective
+## 🧠 你的身份与记忆
+- **角色**：清晰的角色描述
+- **个性**：个性特征和沟通风格
+- **记忆**：代理记住和学习的内容
+- **经验**：领域专业知识和视角
 
-## 🎯 Your Core Mission
-- Primary responsibility 1 with clear deliverables
-- Primary responsibility 2 with clear deliverables
-- Primary responsibility 3 with clear deliverables
-- **Default requirement**: Always-on best practices
+## 🎯 你的核心使命
+- 带有清晰交付成果的主要职责 1
+- 带有清晰交付成果的主要职责 2
+- 带有清晰交付成果的主要职责 3
+- **默认要求**：始终开启的最佳实践
 
-## 🚨 Critical Rules You Must Follow
-Domain-specific rules and constraints that define the agent's approach
+## 🚨 你必须遵循的关键规则
+定义代理方法的核心领域特定规则和约束
 
-## 📋 Your Technical Deliverables
-Concrete examples of what the agent produces:
-- Code samples
-- Templates
-- Frameworks
-- Documents
+## 📋 你的技术交付成果
+代理产出的具体示例：
+- 代码示例
+- 模板
+- 框架
+- 文档
 
-## 🔄 Your Workflow Process
-Step-by-step process the agent follows:
-1. Phase 1: Discovery and research
-2. Phase 2: Planning and strategy
-3. Phase 3: Execution and implementation
-4. Phase 4: Review and optimization
+## 🔄 你的工作流程
+代理遵循的分步流程：
+1. 阶段一：发现和研究
+2. 阶段二：规划和策略
+3. 阶段三：执行和实施
+4. 阶段四：审查和优化
 
-## 💭 Your Communication Style
-- How the agent communicates
-- Example phrases and patterns
-- Tone and approach
+## 💭 你的沟通风格
+- 代理如何沟通
+- 示例短语和模式
+- 语调和方式
 
-## 🔄 Learning & Memory
-What the agent learns from:
-- Successful patterns
-- Failed approaches
-- User feedback
-- Domain evolution
+## 🔄 学习与记忆
+代理从以下内容学习：
+- 成功的模式
+- 失败的方法
+- 用户反馈
+- 领域演变
 
-## 🎯 Your Success Metrics
-Measurable outcomes:
-- Quantitative metrics (with numbers)
-- Qualitative indicators
-- Performance benchmarks
+## 🎯 你的成功指标
+可衡量的结果：
+- 定量指标（带数字）
+- 定性指标
+- 性能基准
 
-## 🚀 Advanced Capabilities
-Advanced techniques and approaches the agent masters
+## 🚀 高级能力
+代理掌握的高级技术和方法
 ```
 
-### Agent Design Principles
+### 代理设计原则
 
-1. **🎭 Strong Personality**
-   - Give the agent a distinct voice and character
-   - Not "I am a helpful assistant" - be specific and memorable
-   - Example: "I default to finding 3-5 issues and require visual proof" (Evidence Collector)
+1. **🎭 强烈个性**
+   - 给代理独特的声音和性格
+   - 不是"我是一个有帮助的助手" —— 要具体且令人难忘
+   - 示例："我默认会找出 3-5 个问题并要求视觉证明"（证据收集师）
 
-2. **📋 Clear Deliverables**
-   - Provide concrete code examples
-   - Include templates and frameworks
-   - Show real outputs, not vague descriptions
+2. **📋 清晰交付成果**
+   - 提供具体的代码示例
+   - 包含模板和框架
+   - 展示真实输出，而非模糊描述
 
-3. **✅ Success Metrics**
-   - Include specific, measurable metrics
-   - Example: "Page load times under 3 seconds on 3G"
-   - Example: "10,000+ combined karma across accounts"
+3. **✅ 成功指标**
+   - 包含具体、可衡量的指标
+   - 示例："3G 网络下页面加载时间低于 3 秒"
+   - 示例："各账号累计 10,000+ karma"
 
-4. **🔄 Proven Workflows**
-   - Step-by-step processes
-   - Real-world tested approaches
-   - Not theoretical - battle-tested
+4. **🔄 经过验证的工作流程**
+   - 分步流程
+   - 经过真实世界测试的方法
+   - 不是理论上的 —— 而是经过实战检验的
 
-5. **💡 Learning Memory**
-   - What patterns the agent recognizes
-   - How it improves over time
-   - What it remembers between sessions
+5. **💡 学习记忆**
+   - 代理识别什么模式
+   - 如何随时间改进
+   - 会话之间记住什么
 
-### What Makes a Great Agent?
+### 什么造就了优秀的代理？
 
-**Great agents have**:
-- ✅ Narrow, deep specialization
-- ✅ Distinct personality and voice
-- ✅ Concrete code/template examples
-- ✅ Measurable success metrics
-- ✅ Step-by-step workflows
-- ✅ Real-world testing and iteration
+**优秀的代理具有**：
+- ✅ 窄而深的专业化
+- ✅ 独特的个性和声音
+- ✅ 具体的代码/模板示例
+- ✅ 可衡量的成功指标
+- ✅ 分步工作流程
+- ✅ 真实世界测试和迭代
 
-**Avoid**:
-- ❌ Generic "helpful assistant" personality
-- ❌ Vague "I will help you with..." descriptions
-- ❌ No code examples or deliverables
-- ❌ Overly broad scope (jack of all trades)
-- ❌ Untested theoretical approaches
+**应避免**：
+- ❌ 通用"有帮助的助手"个性
+- ❌ 模糊的"我会帮你……"描述
+- ❌ 没有代码示例或交付成果
+- ❌ 范围过宽（样样通，样样松）
+- ❌ 未经测试的理论方法
 
 ---
 
-## 🔄 Pull Request Process
+## 🔄 Pull Request 流程
 
-### Before Submitting
+### 提交前
 
-1. **Test Your Agent**: Use it in real scenarios, iterate on feedback
-2. **Follow the Template**: Match the structure of existing agents
-3. **Add Examples**: Include at least 2-3 code/template examples
-4. **Define Metrics**: Include specific, measurable success criteria
-5. **Proofread**: Check for typos, formatting issues, clarity
+1. **测试您的代理**：在真实场景中使用，根据反馈迭代
+2. **遵循模板**：匹配现有代理的结构
+3. **添加示例**：包含至少 2-3 个代码/模板示例
+4. **定义指标**：包含具体、可衡量的成功标准
+5. **校对**：检查拼写错误、格式问题、清晰度
 
-### Submitting Your PR
+### 提交您的 PR
 
-1. **Fork** the repository
-2. **Create a branch**: `git checkout -b add-agent-name`
-3. **Make your changes**: Add your agent file(s)
-4. **Commit**: `git commit -m "Add [Agent Name] specialist"`
-5. **Push**: `git push origin add-agent-name`
-6. **Open a Pull Request** with:
-   - Clear title: "Add [Agent Name] - [Category]"
-   - Description of what the agent does
-   - Why this agent is needed (use case)
-   - Any testing you've done
+1. **Fork** 本仓库
+2. **创建分支**：`git checkout -b add-agent-name`
+3. **进行更改**：添加您的代理文件
+4. **提交**：`git commit -m "Add [Agent Name] specialist"`
+5. **推送**：`git push origin add-agent-name`
+6. **打开 Pull Request**，包含：
+   - 清晰的标题："Add [Agent Name] - [Category]"
+   - 描述代理的功能
+   - 为什么需要这个代理（使用场景）
+   - 您做过的任何测试
 
-### PR Review Process
+### PR 审查流程
 
-1. **Community Review**: Other contributors may provide feedback
-2. **Iteration**: Address feedback and make improvements
-3. **Approval**: Maintainers will approve when ready
-4. **Merge**: Your contribution becomes part of The Agency!
+1. **社区审查**：其他贡献者可能会提供反馈
+2. **迭代**：处理反馈并做出改进
+3. **批准**：维护者会在准备好时批准
+4. **合并**：您的贡献成为 The Agency 的一部分！
 
-### PR Template
+### PR 模板
 
 ```markdown
-## Agent Information
-**Agent Name**: [Name]
-**Category**: [engineering/design/marketing/etc.]
-**Specialty**: [One-line description]
+## 代理信息
+**代理名称**：[名称]
+**类别**：[engineering/design/marketing/etc.]
+**专业领域**：[一行描述]
 
-## Motivation
-[Why is this agent needed? What gap does it fill?]
+## 动机
+[为什么需要这个代理？填补什么空白？]
 
-## Testing
-[How have you tested this agent? Real-world use cases?]
+## 测试
+[您如何测试这个代理？真实世界用例？]
 
-## Checklist
-- [ ] Follows agent template structure
-- [ ] Includes personality and voice
-- [ ] Has concrete code/template examples
-- [ ] Defines success metrics
-- [ ] Includes step-by-step workflow
-- [ ] Proofread and formatted correctly
-- [ ] Tested in real scenarios
+## 检查清单
+- [ ] 遵循代理模板结构
+- [ ] 包含个性和声音
+- [ ] 有具体的代码/模板示例
+- [ ] 定义了成功指标
+- [ ] 包含分步工作流程
+- [ ] 已校对并正确格式化
+- [ ] 在真实场景中测试过
 ```
 
 ---
 
-## 📐 Style Guide
+## 📐 风格指南
 
-### Writing Style
+### 写作风格
 
-- **Be specific**: "Reduce page load by 60%" not "Make it faster"
-- **Be concrete**: "Create React components with TypeScript" not "Build UIs"
-- **Be memorable**: Give agents personality, not generic corporate speak
-- **Be practical**: Include real code, not pseudo-code
+- **具体明确**："将页面加载时间减少 60%" 而非 "让它更快"
+- **具体可感**："用 TypeScript 创建 React 组件" 而非 "构建 UI"
+- **令人难忘**：给代理个性，而非通用企业话术
+- **实用为主**：包含真实代码，而非伪代码
 
-### Formatting
+### 格式
 
-- Use **Markdown formatting** consistently
-- Include **emojis** for section headers (makes scanning easier)
-- Use **code blocks** for all code examples with proper syntax highlighting
-- Use **tables** for comparing options or showing metrics
-- Use **bold** for emphasis, `code` for technical terms
+- 一致使用 **Markdown 格式**
+- 为章节标题包含 **emoji**（便于扫描）
+- 为所有代码示例使用 **代码块**，并正确语法高亮
+- 使用 **表格** 比较选项或展示指标
+- 使用 **粗体** 表示强调，`代码` 表示技术术语
 
-### Code Examples
+### 代码示例
 
 ```markdown
-## Example Code Block
+## 示例代码块
 
 \`\`\`typescript
-// Always include:
-// 1. Language specification for syntax highlighting
-// 2. Comments explaining key concepts
-// 3. Real, runnable code (not pseudo-code)
-// 4. Modern best practices
+// 始终包含：
+// 1. 语言规范用于语法高亮
+// 2. 解释关键概念的注释
+// 3. 真实、可运行的代码（非伪代码）
+// 4. 现代最佳实践
 
 interface AgentExample {
   name: string;
@@ -281,73 +281,73 @@ interface AgentExample {
 \`\`\`
 ```
 
-### Tone
+### 语调
 
-- **Professional but approachable**: Not overly formal or casual
-- **Confident but not arrogant**: "Here's the best approach" not "Maybe you could try..."
-- **Helpful but not hand-holding**: Assume competence, provide depth
-- **Personality-driven**: Each agent should have a unique voice
-
----
-
-## 🌟 Recognition
-
-Contributors who make significant contributions will be:
-
-- Listed in the README acknowledgments section
-- Highlighted in release notes
-- Featured in "Agent of the Week" showcases (if applicable)
-- Given credit in the agent file itself
+- **专业但亲切**：不过于正式或随意
+- **自信但不傲慢**："这是最佳方法" 而非 "也许你可以试试……"
+- **有帮助但不手把手教**：假设能力，提供深度
+- **个性驱动**：每个代理应有独特的声音
 
 ---
 
-## 🤔 Questions?
+## 🌟 认可
 
-- **General Questions**: [GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
-- **Bug Reports**: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
-- **Feature Requests**: [GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
-- **Community Chat**: [Join our discussions](https://github.com/msitarzewski/agency-agents/discussions)
+做出重大贡献的贡献者将：
 
----
-
-## 📚 Resources
-
-### For New Contributors
-
-- [README.md](README.md) - Overview and agent catalog
-- [Example: Frontend Developer](engineering/engineering-frontend-developer.md) - Well-structured agent example
-- [Example: Reddit Community Builder](marketing/marketing-reddit-community-builder.md) - Great personality example
-- [Example: Whimsy Injector](design/design-whimsy-injector.md) - Creative specialist example
-
-### For Agent Design
-
-- Read existing agents for inspiration
-- Study the patterns that work well
-- Test your agents in real scenarios
-- Iterate based on feedback
+- 列入 README 致谢章节
+- 在发布说明中突出显示
+- 在"每周代理"展示中亮相（如适用）
+- 在代理文件本身中获得署名
 
 ---
 
-## 🎉 Thank You!
+## 🤔 有问题？
 
-Your contributions make The Agency better for everyone. Whether you're:
+- **一般问题**：[GitHub Discussions](https://github.com/msitarzewski/agency-agents/discussions)
+- **Bug 报告**：[GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
+- **功能请求**：[GitHub Issues](https://github.com/msitarzewski/agency-agents/issues)
+- **社区聊天**：[加入我们的讨论](https://github.com/msitarzewski/agency-agents/discussions)
 
-- Adding a new agent
-- Improving documentation
-- Fixing bugs
-- Sharing success stories
-- Helping other contributors
+---
 
-**You're making a difference. Thank you!**
+## 📚 资源
+
+### 新贡献者
+
+- [README.md](README.md) - 概述和代理目录
+- [示例：前端开发工程师](engineering/engineering-frontend-developer.md) - 结构良好的代理示例
+- [示例：Reddit 社区建设者](marketing/marketing-reddit-community-builder.md) - 优秀个性示例
+- [示例：趣味注入师](design/design-whimsy-injector.md) - 创意专家示例
+
+### 代理设计
+
+- 阅读现有代理获取灵感
+- 研究行之有效的模式
+- 在真实场景中测试您的代理
+- 根据反馈迭代
+
+---
+
+## 🎉 感谢您！
+
+您的贡献让 The Agency 对每个人都更好。无论您是：
+
+- 添加新代理
+- 改进文档
+- 修复 Bug
+- 分享成功故事
+- 帮助其他贡献者
+
+**您正在产生影响。感谢您！**
 
 ---
 
 <div align="center">
 
-**Questions? Ideas? Feedback?**
+**有问题？有想法？有反馈？**
 
-[Open an Issue](https://github.com/msitarzewski/agency-agents/issues) • [Start a Discussion](https://github.com/msitarzewski/agency-agents/discussions) • [Submit a PR](https://github.com/msitarzewski/agency-agents/pulls)
+[提交 Issue](https://github.com/msitarzewski/agency-agents/issues) • [开始讨论](https://github.com/msitarzewski/agency-agents/discussions) • [提交 PR](https://github.com/msitarzewski/agency-agents/pulls)
 
-Made with ❤️ by the community
+用 ❤️ 由社区制作
 
 </div>
