@@ -2,10 +2,11 @@
 
 > **触手可及的完整 AI 代理机构** —— 从前端开发专家到 Reddit 社区运营高手，从趣味注入师到现实核查员。每个代理都是拥有独特个性、专业流程和成熟交付成果的领域专家。
 
-[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)
+---
+
+# 特别鸣谢！
+
+项目翻译自[https://github.com/msitarzewski/agency-agents]
 
 ---
 
